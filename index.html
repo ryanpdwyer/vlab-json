@@ -72,7 +72,7 @@
 
                     // Copy the contents of the json-data div to the clipboard when the button is clicked
                     document.getElementById("copy-json-btn").addEventListener("click", function() {
-                        navigator.clipboard.writeText(json_text);
+                        navigator.clipboard.writeText("var data = "+json_text+";");
                     });
 
                 </script>
