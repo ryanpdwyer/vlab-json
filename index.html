@@ -8,6 +8,17 @@
         <script src="https://chemcollective.org/chem/jsvlab/bundled/526.js"></script>
         <script src="https://chemcollective.org/chem/jsvlab/bundled/911.js"></script>
         <script src="https://chemcollective.org/chem/jsvlab/bundled/lib.js"></script>
+        <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.css">
+</link>
+
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.js">
+</script>
+        <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/mode/javascript/javascript.min.js">
+        
+      </script>
     </head>
     <body>
         <style>
@@ -23,17 +34,20 @@
         <div id="vlab-placeholder" style="width:800px; height:600px; background-color: #f2f2f2; display: flex; justify-content: center; align-items: center;">
             <p style="font-size: 24px; color: #999;">Virtual lab will be displayed here after it is loaded.</p>
         </div>
-        <button id="copy-json-btn">Copy JSON</button>
+        <button id="copy-json-btn">Copy JSON</button> <button id="reload-vlab">Reload Lab</button>
         <div id="json-data"></div>
 
         
                 <script>
                     // Synchronous load of the activity list contained in output.json - use browser methods, not jQuery
 
+
+
                     const language = 'en';
                     const allowLoadAssignment = false;
                     const showFirstTimeTips = false;
-                    const appModel = new VLab.AppModel();
+                    let appModel = new VLab.AppModel();
+                    let appView = null;
 
                     const request = new XMLHttpRequest();
                     request.open('GET', 'output.json', false);
@@ -43,6 +57,13 @@
                     const vlab_placeholder = document.getElementById("vlab-placeholder");
                     let data = null;
                     let json_text = null;
+                    let editor = CodeMirror(document.querySelector('#json-data'), {
+  lineNumbers: true,
+  tabSize: 2,
+  value: 'var data = {};',
+  mode: 'javascript'
+}); 
+editor.setSize('auto', 'auto');
 
                     // Populate the select element with the activity list
                     const select = document.getElementById("activity-select");
@@ -60,21 +81,30 @@
                         vlab_placeholder.remove();
                         vlab_el = document.getElementById("vlab");
                         vlab_el.classList.remove("hidden");
-                    const appView = new VLab.AppView({ model: appModel,
+                    appView = new VLab.AppView({ model: appModel,
                                                        el: vlab_el,
                                                        vlab: data,
                                                        domain: "https://chemcollective.org/chem/jsvlab/"});
 
+                    editor.setValue("var data = "+JSON.stringify(data, null, 2)+";");
                     json_text = JSON.stringify(data, null, 2);
-                    document.getElementById("json-data").innerHTML = json_text;
-
-                    });
+ });
 
                     // Copy the contents of the json-data div to the clipboard when the button is clicked
                     document.getElementById("copy-json-btn").addEventListener("click", function() {
-                        navigator.clipboard.writeText("var data = "+json_text+";");
+                        navigator.clipboard.writeText(editor.getValue());
                     });
 
+                    document.getElementById("reload-vlab").addEventListener("click", function() {
+                        vlab_el = document.getElementById("vlab");
+                        eval(editor.getValue());
+
+                        appModel = new VLab.AppModel();
+                        appView = new VLab.AppView({ model: appModel,
+                                                           el: vlab_el,
+                                                           vlab: data,
+                                                           domain: "https://chemcollective.org/chem/jsvlab/"});
+                    });
                 </script>
             </head>
         </html>
