@@ -9,6 +9,9 @@ from collections import abc
 
 
 
+# Get the folder name for this file
+current_folder = pathlib.Path(__file__).parent.absolute()
+
 def load(fname):
     with io.open(fname, 'r', encoding='utf-8-sig') as json_file:
         return json.load(json_file)
@@ -39,7 +42,7 @@ st.title("New format for self-hosted JavaScript virtual labs")
 
 # Use pathlib to get all folders that contain json files (the folders could be several levels deep)
 # Just return the folder, not the files
-folders = sorted(set(x.parent for x in pathlib.Path(".").glob("**/*.json"))) # Unique folders
+folders = sorted(set(x.parent for x in pathlib.Path(current_folder).glob("**/*.json"))) # Unique folders
 
 st.write(f"Choosing among {len(folders)} folders")
 
