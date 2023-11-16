@@ -47,13 +47,11 @@ folders = sorted(set(x.parent for x in pathlib.Path(current_folder).glob("**/*.j
 st.write(f"Choosing among {len(folders)} folders")
 
 
-folder = st.selectbox("Folder:", folders)
+folder = st.selectbox("Folder:", folders, format_func=lambda x: str(x).replace(str(current_folder), ""))
 
 files = [pathlib.Path(x) for x in folder.glob('*.json')]
 
 json_representation = {fname.parts[-1].replace(".json", ""): load(fname) for fname in files}
-
-
 
 display = st.radio("Display settings:", options=["All", "Next level keys", "Next level sizes"])
 
