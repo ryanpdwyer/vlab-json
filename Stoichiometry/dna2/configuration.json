@@ -1,0 +1,21 @@
+{
+  "title": "DNA/Dye Problem 2",
+  "solutionViewers": [
+    {
+      "id": "solutionProperties",
+      "displayDefault": true,
+      "args": {
+        "honorSignificantFigures": false
+      }
+    },
+    {
+      "id": "spectrometer",
+      "displayDefault": false
+    },
+    {
+      "id": "thermometer",
+      "displayDefault": true
+    }
+  ],
+  "transfer": ["precise", "significantFigures", "realistic"]
+}

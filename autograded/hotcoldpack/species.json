@@ -1,0 +1,105 @@
+{
+   "SPECIES_LIST": {
+      "SPECIES": [
+         {
+            "id": "0", 
+            "name": "H<sub>2</sub>O", 
+            "enthalpy": "-285.83", 
+            "entropy": "69.91", 
+            "molecularWeight": "18.016", 
+            "state": "l", 
+            "unitActivity": "true"
+         }, 
+         {
+            "id": "1", 
+            "name": "H<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0", 
+            "molecularWeight": "1.008"
+         }, 
+         {
+            "id": "2", 
+            "name": "OH<sup>-</sup>", 
+            "enthalpy": "-229.99", 
+            "entropy": "-10.75", 
+            "molecularWeight": "17.008"
+         }, 
+         {
+            "id": "3", 
+            "name": "MgSO<sub>4</sub>", 
+            "enthalpy": "-1291.35", 
+            "entropy": "115.5", 
+            "molecularWeight": "120.37", 
+            "density": "2.66", 
+            "state": "s"
+         }, 
+         {
+            "id": "4", 
+            "name": "Mg<sup>+2</sup>", 
+            "enthalpy": "-467.0", 
+            "entropy": "-137.0", 
+            "density": "5.155", 
+            "molecularWeight": "24.305"
+         }, 
+         {
+            "id": "5", 
+            "name": "SO<sub>4</sub><sup>-2</sup>", 
+            "enthalpy": "-909.3", 
+            "entropy": "20.1", 
+            "density": "3.155", 
+            "molecularWeight": "96.058"
+         }, 
+         {
+            "id": "6", 
+            "name": "K<sub>2</sub>SO<sub>4</sub>", 
+            "enthalpy": "-1440.22", 
+            "entropy": "133.74319271437525", 
+            "molecularWeight": "174.27", 
+            "density": "2.662", 
+            "state": "s"
+         }, 
+         {
+            "id": "7", 
+            "name": "K<sup>+</sup>", 
+            "enthalpy": "-252.14", 
+            "entropy": "101.2", 
+            "density": "3.155", 
+            "molecularWeight": "39.098"
+         }, 
+         {
+            "id": "8", 
+            "name": "KNO<sub>3</sub>", 
+            "enthalpy": "-492.74", 
+            "entropy": "61.75105969911185", 
+            "molecularWeight": "101.103", 
+            "density": "2.109", 
+            "state": "s"
+         }, 
+         {
+            "id": "9", 
+            "name": "NO<sub>3</sub><sup>-</sup>", 
+            "enthalpy": "-205.0", 
+            "entropy": "146.4", 
+            "density": "3.155", 
+            "molecularWeight": "62.005"
+         }, 
+         {
+            "id": "10", 
+            "name": "NH<sub>4</sub>NO<sub>3</sub>", 
+            "enthalpy": "-363.91", 
+            "entropy": "91.13323219806773", 
+            "molecularWeight": "80.04", 
+            "density": "1.725", 
+            "state": "s"
+         }, 
+         {
+            "id": "11", 
+            "name": "NH<sub>4</sub><sup>+</sup>", 
+            "enthalpy": "-132.51", 
+            "entropy": "113.4", 
+            "density": "3.155", 
+            "molecularWeight": "18.038"
+         }
+      ]
+   }
+}

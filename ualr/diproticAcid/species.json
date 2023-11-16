@@ -1,0 +1,690 @@
+{
+  "SPECIES_LIST": {
+    "SPECIES": [
+      {
+        "id": "0",
+        "name": "H<sub>2</sub>O",
+        "enthalpy": "-285.83",
+        "entropy": "69.91",
+        "state": "l"
+      },
+      {
+        "id": "1",
+        "name": "H<sup>+</sup>",
+        "enthalpy": "0.0",
+        "entropy": "0.0"
+      },
+      {
+        "id": "2",
+        "name": "OH<sup>-</sup>",
+        "enthalpy": "-229.99",
+        "entropy": "-10.75"
+      },
+      {
+        "id": "3",
+        "name": "C<sub>3</sub>H<sub>4</sub>O<sub>4</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "39.16169364813321"
+      },
+      {
+        "id": "4",
+        "name": "C<sub>3</sub>H<sub>3</sub>O<sub>4</sub><sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "5",
+        "name": "C<sub>3</sub>H<sub>2</sub>O<sub>4</sub><sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-9.916044950359446"
+      },
+      {
+        "id": "6",
+        "name": "C<sub>4</sub>H<sub>4</sub>O<sub>4</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "21.356967500620875"
+      },
+      {
+        "id": "7",
+        "name": "C<sub>4</sub>H<sub>3</sub>O<sub>4</sub><sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "8",
+        "name": "C<sub>4</sub>H<sub>2</sub>O<sub>4</sub><sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-17.19106197641601"
+      },
+      {
+        "id": "9",
+        "name": "H<sub>2</sub>SO<sub>3</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "20.533738225045454"
+      },
+      {
+        "id": "10",
+        "name": "HSO<sub>3</sub><sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "11",
+        "name": "SO<sub>3</sub><sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-38.28870517121975"
+      },
+      {
+        "id": "12",
+        "name": "C<sub>2</sub>H<sub>5</sub>NO<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "29.780708890442504"
+      },
+      {
+        "id": "13",
+        "name": "C<sub>2</sub>H<sub>4</sub>NO<sub>2</sub><sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "14",
+        "name": "C<sub>2</sub>H<sub>3</sub>NO<sub>2</sub><sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-84.77244181760904"
+      },
+      {
+        "id": "15",
+        "name": "C<sub>6</sub>H<sub>12</sub>N<sub>2</sub>O<sub>4</sub>S<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "25.185940859267127"
+      },
+      {
+        "id": "16",
+        "name": "C<sub>6</sub>H<sub>11</sub>N<sub>2</sub>O<sub>4</sub>S<sub>2</sub><sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "17",
+        "name": "C<sub>6</sub>H<sub>10</sub>N<sub>2</sub>O<sub>4</sub>S<sub>2</sub><sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-54.14065486283043"
+      },
+      {
+        "id": "18",
+        "name": "C<sub>4</sub>H<sub>6</sub>O<sub>6</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "42.03342368337628"
+      },
+      {
+        "id": "19",
+        "name": "C<sub>4</sub>H<sub>5</sub>O<sub>6</sub><sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "20",
+        "name": "C<sub>4</sub>H<sub>4</sub>O<sub>6</sub><sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "15.929555927532727"
+      },
+      {
+        "id": "21",
+        "name": "H<sub>2</sub>TeO<sub>3</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "32.46099024079237"
+      },
+      {
+        "id": "22",
+        "name": "HTeO<sub>3</sub><sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "23",
+        "name": "TeO<sub>3</sub><sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-48.39719484907136"
+      },
+      {
+        "id": "24",
+        "name": "Na<sup>+</sup>",
+        "enthalpy": "-240.12",
+        "entropy": "59.0",
+        "molecularWeight": "22.99"
+      },
+      {
+        "id": "37",
+        "name": "H<sub>3</sub>PO<sub>4</sub>",
+        "enthalpy": "-1288.34",
+        "entropy": "158.19999999999982",
+        "molecularWeight": "97.994"
+      },
+      {
+        "id": "38",
+        "name": "H<sub>2</sub>PO<sub>4</sub><sup>-</sup>",
+        "enthalpy": "-1296.29",
+        "entropy": "90.87604282938487",
+        "molecularWeight": "96.986"
+      },
+      {
+        "id": "39",
+        "name": "HPO<sub>4</sub><sup>-2</sup>",
+        "enthalpy": "-1292.14",
+        "entropy": "-33.15335540626731",
+        "molecularWeight": "95.978"
+      },
+      {
+        "id": "40",
+        "name": "PO<sub>4</sub><sup>-3</sup>",
+        "enthalpy": "-1277.4",
+        "entropy": "-226.04278471190318",
+        "molecularWeight": "94.97"
+      },
+      {
+        "id": "51",
+        "name": "(Unknown 1)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "29.780708890442504"
+      },
+      {
+        "id": "52",
+        "name": "(Unknown 1)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "53",
+        "name": "(Unknown 1)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-84.77244181760904"
+      },
+      {
+        "id": "54",
+        "name": "(Unknown 2)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "20.533738225045454"
+      },
+      {
+        "id": "55",
+        "name": "(Unknown 2)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "56",
+        "name": "(Unknown 2)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-38.28870517121975"
+      },
+      {
+        "id": "57",
+        "name": "(Unknown 3)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "32.46099024079237"
+      },
+      {
+        "id": "58",
+        "name": "(Unknown 3)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "59",
+        "name": "(Unknown 3)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-48.39719484907136"
+      },
+      {
+        "id": "60",
+        "name": "(Unknown 4)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "21.356967500620875"
+      },
+      {
+        "id": "61",
+        "name": "(Unknown 4)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "62",
+        "name": "(Unknown 4)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-17.19106197641601"
+      },
+      {
+        "id": "63",
+        "name": "(Unknown 5)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "25.185940859267127"
+      },
+      {
+        "id": "64",
+        "name": "(Unknown 5)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "65",
+        "name": "(Unknown 5)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-54.14065486283043"
+      },
+      {
+        "id": "66",
+        "name": "(Unknown 6)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "32.46099024079237"
+      },
+      {
+        "id": "67",
+        "name": "(Unknown 6)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "68",
+        "name": "(Unknown 6)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-48.39719484907136"
+      },
+      {
+        "id": "69",
+        "name": "(Unknown 7)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "21.356967500620875"
+      },
+      {
+        "id": "70",
+        "name": "(Unknown 7)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "71",
+        "name": "(Unknown 7)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-17.19106197641601"
+      },
+      {
+        "id": "72",
+        "name": "(Unknown 8)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "29.780708890442504"
+      },
+      {
+        "id": "73",
+        "name": "(Unknown 8)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "74",
+        "name": "(Unknown 8)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-84.77244181760904"
+      },
+      {
+        "id": "75",
+        "name": "(Unknown 9)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "25.185940859267127"
+      },
+      {
+        "id": "76",
+        "name": "(Unknown 9)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "77",
+        "name": "(Unknown 9)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-54.14065486283043"
+      },
+      {
+        "id": "78",
+        "name": "(Unknown 10)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "21.356967500620875"
+      },
+      {
+        "id": "79",
+        "name": "(Unknown 10)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "80",
+        "name": "(Unknown 10)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-17.19106197641601"
+      },
+      {
+        "id": "81",
+        "name": "(Unknown 11)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "32.46099024079237"
+      },
+      {
+        "id": "82",
+        "name": "(Unknown 11)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "83",
+        "name": "(Unknown 11)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-48.39719484907136"
+      },
+      {
+        "id": "84",
+        "name": "(Unknown 12)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "29.780708890442504"
+      },
+      {
+        "id": "85",
+        "name": "(Unknown 12)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "86",
+        "name": "(Unknown 12)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-84.77244181760904"
+      },
+      {
+        "id": "87",
+        "name": "(Unknown 13)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "20.533738225045454"
+      },
+      {
+        "id": "88",
+        "name": "(Unknown 13)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "89",
+        "name": "(Unknown 13)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-38.28870517121975"
+      },
+      {
+        "id": "90",
+        "name": "(Unknown 14)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "21.356967500620875"
+      },
+      {
+        "id": "91",
+        "name": "(Unknown 14)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "92",
+        "name": "(Unknown 14)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-17.19106197641601"
+      },
+      {
+        "id": "93",
+        "name": "(Unknown 15)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "32.46099024079237"
+      },
+      {
+        "id": "94",
+        "name": "(Unknown 15)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "95",
+        "name": "(Unknown 15)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-48.39719484907136"
+      },
+      {
+        "id": "96",
+        "name": "(Unknown 16)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "21.356967500620875"
+      },
+      {
+        "id": "97",
+        "name": "(Unknown 16)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "98",
+        "name": "(Unknown 16)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-17.19106197641601"
+      },
+      {
+        "id": "99",
+        "name": "(Unknown 17)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "25.185940859267127"
+      },
+      {
+        "id": "100",
+        "name": "(Unknown 17)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "101",
+        "name": "(Unknown 17)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-54.14065486283043"
+      },
+      {
+        "id": "102",
+        "name": "(Unknown 18)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "29.780708890442504"
+      },
+      {
+        "id": "103",
+        "name": "(Unknown 18)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "104",
+        "name": "(Unknown 18)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-84.77244181760904"
+      },
+      {
+        "id": "105",
+        "name": "(Unknown 19)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "32.46099024079237"
+      },
+      {
+        "id": "106",
+        "name": "(Unknown 19)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "107",
+        "name": "(Unknown 19)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-48.39719484907136"
+      },
+      {
+        "id": "108",
+        "name": "(Unknown 20)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "21.356967500620875"
+      },
+      {
+        "id": "109",
+        "name": "(Unknown 20)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "110",
+        "name": "(Unknown 20)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-17.19106197641601"
+      },
+      {
+        "id": "111",
+        "name": "(Unknown 21)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "20.533738225045454"
+      },
+      {
+        "id": "112",
+        "name": "(Unknown 21)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "113",
+        "name": "(Unknown 21)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-38.28870517121975"
+      },
+      {
+        "id": "114",
+        "name": "(Unknown 22)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "29.780708890442504"
+      },
+      {
+        "id": "115",
+        "name": "(Unknown 22)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "116",
+        "name": "(Unknown 22)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-84.77244181760904"
+      },
+      {
+        "id": "117",
+        "name": "(Unknown 23)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "32.46099024079237"
+      },
+      {
+        "id": "118",
+        "name": "(Unknown 23)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "119",
+        "name": "(Unknown 23)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-48.39719484907136"
+      },
+      {
+        "id": "120",
+        "name": "(Unknown 24)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "21.356967500620875"
+      },
+      {
+        "id": "121",
+        "name": "(Unknown 24)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "122",
+        "name": "(Unknown 24)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-17.19106197641601"
+      },
+      {
+        "id": "123",
+        "name": "(Unknown 25)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "29.780708890442504"
+      },
+      {
+        "id": "124",
+        "name": "(Unknown 25)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "125",
+        "name": "(Unknown 25)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-84.77244181760904"
+      },
+      {
+        "id": "126",
+        "name": "(Unknown 26)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "21.356967500620875"
+      },
+      {
+        "id": "127",
+        "name": "(Unknown 26)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "128",
+        "name": "(Unknown 26)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-17.19106197641601"
+      },
+      {
+        "id": "129",
+        "name": "(Unknown 27)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "25.185940859267127"
+      },
+      {
+        "id": "130",
+        "name": "(Unknown 27)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "131",
+        "name": "(Unknown 27)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-54.14065486283043"
+      },
+      {
+        "id": "132",
+        "name": "(Unknown 28)H<sub>2</sub>",
+        "enthalpy": "-117.0",
+        "entropy": "20.533738225045454"
+      },
+      {
+        "id": "133",
+        "name": "(Unknown 28)H<sup>-</sup>",
+        "enthalpy": "-100.0",
+        "entropy": "42.0"
+      },
+      {
+        "id": "134",
+        "name": "(Unknown 28)<sup>2-</sup>",
+        "enthalpy": "-83.0",
+        "entropy": "-38.28870517121975"
+      }
+    ]
+  }
+}

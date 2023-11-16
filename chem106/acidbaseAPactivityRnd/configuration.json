@@ -1,0 +1,13 @@
+{
+  "title": "Unknown Strong Acid/Base",
+  "solutionViewers": [
+    {
+      "id": "solutionProperties",
+      "displayDefault": true,
+      "args": {
+        "honorSignificantFigures": false
+      }
+    }
+  ],
+  "transfer": ["precise", "significantFigures", "realistic"]
+}

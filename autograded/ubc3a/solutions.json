@@ -1,0 +1,90 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.52497"
+                     }
+                  ]
+               },
+			 {
+				"name": "NaOH", 
+				"description": "Unknown Sodium Hydroxide Solution", 
+				"volume": "0.1", 
+				"species": [
+				   {
+					  "id": "0", 
+					  "amount": "u1,double,5.4563758,5.45637581,u"
+				   }, 
+				   {
+					  "id": "8", 
+					  "amount": "u2,double,0.01,0.010000001,u"
+				   }, 
+				   {
+					  "id": "2", 
+					  "amount": "u3,double,0.01,0.010000001,u"
+				   }
+				]
+			 }, 
+			 {
+				"name": "HCl", 
+				"description": "Unknown Hydrochloric Acid", 
+				"volume": "0.1", 
+				"species": [
+				   {
+					  "id": "0", 
+					  "amount": "u4,double,5.5502655,5.5502656,u"
+				   }, 
+				   {
+					  "id": "7", 
+					  "amount": "u5,double,0.1,0.10000001,u"
+				   }, 
+				   {
+					  "id": "1", 
+					  "amount": "u6,double,0.1,0.10000001,u"
+				   }
+				]
+			 }, 
+			 {
+				"name": "KHP", 
+				"description": "Solid potassium hydrogen phthalate", 
+				"volume": "0.0", 
+				"vessel": "SolidBottle", 
+				"species": [
+				   {
+					  "id": "57", 
+					  "amount": ".5"
+				   }
+				]
+			 }, 
+			 {
+				"name": "Phenolphthalein", 
+				"description": "Phenolphthalein Indicator Solution", 
+				"volume": "0.1", 
+				"vessel": "100mLBottle", 
+				"species": [
+				   {
+					  "id": "0", 
+					  "amount": "5.5508"
+				   }, 
+				   {
+					  "id": "47", 
+					  "amount": ".00016"
+				   }
+				]
+			 }
+                  ]
+               }
+        ]
+    }
+      
+}

@@ -1,0 +1,92 @@
+{
+   "SPECIES_LIST": {
+      "SPECIES": [
+         {
+            "id": "0", 
+            "name": "H<sub>2</sub>O", 
+            "enthalpy": "-285.83", 
+            "entropy": "69.91", 
+            "state": "l", 
+            "unitActivity": "true", 
+            "molecularWeight": "18.016"
+         }, 
+         {
+            "id": "1", 
+            "name": "H<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0", 
+            "molecularWeight": "1.008"
+         }, 
+         {
+            "id": "2", 
+            "name": "OH<sup>-</sup>", 
+            "enthalpy": "-229.99", 
+            "entropy": "-10.75", 
+            "molecularWeight": "17.008"
+         }, 
+         {
+            "id": "3", 
+            "name": "NO<sub>3</sub><sup>-</sup>", 
+            "enthalpy": "-205.0", 
+            "entropy": "146.4", 
+            "density": "4.552", 
+            "molecularWeight": "62.01"
+         }, 
+         {
+            "id": "4", 
+            "name": "Cl<sup>-</sup>", 
+            "enthalpy": "-167.16", 
+            "entropy": "56.5", 
+            "density": "2.165", 
+            "molecularWeight": "35.45"
+         }, 
+         {
+            "id": "5", 
+            "name": "Na<sup>+</sup>", 
+            "enthalpy": "-240.12", 
+            "entropy": "59.0", 
+            "density": "2.265",
+            "molecularWeight": "22.99"
+         }, 
+         {
+            "id": "6", 
+            "name": "NaCl", 
+            "enthalpy": "-411.15", 
+            "entropy": "72.13", 
+            "molecularWeight": "58.44", 
+            "density": "2.165", 
+            "state": "s"
+         }, 
+         {
+            "id": "7", 
+            "name": "AgNO<sub>3</sub>", 
+            "enthalpy": "-124.39", 
+            "entropy": "72.32", 
+            "molecularWeight": "169.87", 
+            "density": "4.352", 
+            "state": "s"
+         }, 
+         {
+            "id": "8", 
+            "name": "AgCl", 
+            "enthalpy": "-127.03", 
+            "entropy": "96.11", 
+            "state": "s", 
+            "hue": "180", 
+            "saturation": "0", 
+            "value": "85", 
+            "colorConcentration": ".03", 
+            "molecularWeight": "143.32", 
+            "density": "5.56"
+         }, 
+         {
+            "id": "9", 
+            "name": "Ag<sup>+</sup>", 
+            "enthalpy": "105.57", 
+            "entropy": "72.68", 
+            "density": "4.352", 
+            "molecularWeight": "107.9"
+         }
+      ]
+   }
+}

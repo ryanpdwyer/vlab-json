@@ -1,0 +1,96 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "Irydium Solutions", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.525"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M Alcohol", 
+                  "description": "1M Alcohol solution", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.2268"
+                     }, 
+                     {
+                        "amount": "0.1", 
+                        "id": "3"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Alcoholic Beverage A", 
+                  "description": "Alcoholic Beverage A", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.5508"
+                     }, 
+                     {
+                        "id": "5", 
+                        "amount": "0.00001"
+                     }, 
+                     {
+                        "amount": "0.25", 
+                        "id": "3"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Alcoholic Beverage B", 
+                  "description": "Alcoholic Beverage B", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "2.8"
+                     }, 
+                     {
+                        "id": "4", 
+                        "amount": "0.000002"
+                     }, 
+                     {
+                        "amount": "0.85", 
+                        "id": "3"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Alcohol 70%", 
+                  "description": "Alcohol 70% (v/v)", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "1.66525"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "1.26253"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "problem.htmL", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

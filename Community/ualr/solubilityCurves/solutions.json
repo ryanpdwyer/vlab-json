@@ -1,0 +1,412 @@
+{
+  "FILESYSTEM": {
+    "DIRECTORY": [{
+      "name": "stockroom",
+      "SOLUTION": [{
+        "name": "Distilled H<sub>2</sub>O",
+        "description": "Distilled Water",
+        "volume": "0.1",
+        "species": [{ "id": "0" }]
+      }],
+      "DIRECTORY": [
+                {
+          "name": "Salts",
+          "SOLUTION": [
+            {
+              "name": "KCl",
+              "description": "Potassium Chloride",
+              "vessel": "SolidBottle",
+			  			   "volume": "0.0",
+              "species": [
+                {
+				"amount": "2.1",
+				"id": "3"
+                }
+              ]
+            },
+            {
+              "name": "NaCl",
+              "description": "Sodium Chloride",
+              "vessel": "SolidBottle",
+			  			   "volume": "0.0",
+              "species": [
+                {
+				"amount": "2.2",
+				"id": "7"
+                }
+              ]
+            },
+            {
+              "name": "Ce<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>",
+              "description": "Cerius Sulfate",
+              "vessel": "SolidBottle",
+			  			   "volume": "0.0",
+              "species": [
+                {
+				"amount": "0.6",
+				"id": "10"
+                }
+              ]
+            },
+            {
+              "name": "CsI",
+              "description": "Cesium Iodide",
+              "vessel": "SolidBottle",
+			  			   "volume": "0.0",
+              "species": [
+                {
+				"amount": "1.2",
+				"id": "21"
+                }
+              ]
+            },
+            {
+              "name": "K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
+              "description": "Potassium Dichromate",
+              "vessel": "SolidBottle",
+			  			   "volume": "0.0",
+              "species": [
+                {
+				"amount": "0.6",
+				"id": "17"
+                }
+              ]
+            },
+            {
+              "name": "KClO<sub>3</sub>",
+              "description": "Potassium Chlorate",
+              "vessel": "SolidBottle",
+			  			   "volume": "0.0",
+              "species": [
+                {
+				"amount": "1.2",
+				"id": "15"
+                }
+              ]
+            }			
+          ]
+        },
+		{
+          "name": "Unknowns 1-14",
+          "SOLUTION": [
+            {
+              "name": "Unknown1",
+              "description": "Unknown Solid 1",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "0.4",
+                  "id": "24"
+                }
+              ]
+            },
+            {
+              "name": "Unknown2",
+              "description": "Unknown Solid 2",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.9",
+                  "id": "29"
+                }
+              ]
+            },
+            {
+              "name": "Unknown3",
+              "description": "Unknown Solid 3",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.0",
+                  "id": "30"
+                }
+              ]
+            },
+            {
+              "name": "Unknown4",
+              "description": "Unknown Solid 4",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.2",
+                  "id": "35"
+                }
+              ]
+            },
+            {
+              "name": "Unknown5",
+              "description": "Unknown Solid 5",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.8",
+                  "id": "38"
+                }
+              ]
+            },
+            {
+              "name": "Unknown6",
+              "description": "Unknown Solid 6",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "0.4",
+                  "id": "39"
+                }
+              ]
+            },
+			{
+              "name": "Unknown7",
+              "description": "Unknown Solid 7",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.9",
+                  "id": "44"
+                }
+              ]
+            },
+            {
+              "name": "Unknown8",
+              "description": "Unknown Solid 8",
+              "vessel": "SolidBottle",
+			   "volume": "0.0",
+              "species": [
+                {
+                  "amount": "1.0",
+                  "id": "45"
+                }
+              ]
+            },
+            {
+              "name": "Unknown9",
+              "description": "Unknown Solid 9",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.2",
+                  "id": "50"
+                }
+              ]
+            },
+            {
+              "name": "Unknown10",
+              "description": "Unknown Solid 10",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.8",
+                  "id": "53"
+                }
+              ]
+            },
+            {
+              "name": "Unknown11",
+              "description": "Unknown Solid 11",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "0.4",
+                  "id": "54"
+                }
+              ]
+            },
+            {
+              "name": "Unknown12",
+              "description": "Unknown Solid 12",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.9",
+                  "id": "59"
+                }
+              ]
+            },
+            {
+              "name": "Unknown13",
+              "description": "Unknown Solid 13",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.0",
+                  "id": "60"
+                }
+              ]
+            },
+            {
+              "name": "Unknown14",
+              "description": "Unknown Solid 14",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.2",
+                  "id": "65"
+                }
+              ]
+            }			
+          ]
+        },
+		{
+          "name": "Unknowns 15-28",
+          "SOLUTION": [
+            {
+              "name": "Unknown15",
+              "description": "Unknown Solid 15",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.8",
+                  "id": "68"
+                }
+              ]
+            },
+            {
+              "name": "Unknown16",
+              "description": "Unknown Solid 16",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "0.4",
+                  "id": "69"
+                }
+              ]
+            },
+            {
+              "name": "Unknown17",
+              "description": "Unknown Solid 17",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.9",
+                  "id": "74"
+                }
+              ]
+            },
+            {
+              "name": "Unknown18",
+              "description": "Unknown Solid 18",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.0",
+                  "id": "75"
+                }
+              ]
+            },
+            {
+              "name": "Unknown19",
+              "description": "Unknown Solid 19",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.2",
+                  "id": "80"
+                }
+              ]
+            },
+            {
+              "name": "Unknown20",
+              "description": "Unknown Solid 20",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.8",
+                  "id": "83"
+                }
+              ]
+            },
+			{
+              "name": "Unknown21",
+              "description": "Unknown Solid 21",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "0.4",
+                  "id": "99"
+                }
+              ]
+            },
+            {
+              "name": "Unknown22",
+              "description": "Unknown Solid 22",
+              "vessel": "SolidBottle",
+			   "volume": "0.0",
+              "species": [
+                {
+                  "amount": "1.9",
+                  "id": "104"
+                }
+              ]
+            },
+            {
+              "name": "Unknown23",
+              "description": "Unknown Solid 23",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.0",
+                  "id": "105"
+                }
+              ]
+            },
+            {
+              "name": "Unknown24",
+              "description": "Unknown Solid 24",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.2",
+                  "id": "95"
+                }
+              ]
+            },
+            {
+              "name": "Unknown25",
+              "description": "Unknown Solid 25",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.8",
+                  "id": "98"
+                }
+              ]
+            },
+            {
+              "name": "Unknown26",
+              "description": "Unknown Solid 26",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "0.4",
+                  "id": "84"
+                }
+              ]
+            },
+            {
+              "name": "Unknown27",
+              "description": "Unknown Solid 27",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.9",
+                  "id": "89"
+                }
+              ]
+            },
+            {
+              "name": "Unknown28",
+              "description": "Unknown Solid 28",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "amount": "1.0",
+                  "id": "90"
+                }
+              ]
+            }			
+          ]
+        }
+      ]
+    }]
+  }
+}

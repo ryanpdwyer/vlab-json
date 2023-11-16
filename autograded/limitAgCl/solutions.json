@@ -1,0 +1,65 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.525"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NaCl", 
+                  "description": "Sodium Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "6", 
+                        "amount": "2.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "AgNO<sub>3</sub>", 
+                  "description": "Silver Nitrate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "7", 
+                        "amount": "1.4"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Solution 3", 
+                  "description": "Unknown silver nitrate dissolved in water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.550833"
+                     }, 
+                     {
+                        "id": "7", 
+                        "amount": "u1,double,0.01,0.02,u"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "hslimit2.htm", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

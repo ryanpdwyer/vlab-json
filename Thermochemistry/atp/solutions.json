@@ -1,0 +1,69 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1M ATP", 
+                  "description": "0.1M ATP Solution", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "0.01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.3M ATP", 
+                  "description": "0.3M ATP Solution", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "0.03"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1.0 microM Enzyme", 
+                  "description": "1.0 microMolar Enzyme Solution", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "4",
+                        "amount": "10000000"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "atp.htm", 
+               "description": "ATP Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

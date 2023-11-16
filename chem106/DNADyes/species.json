@@ -1,0 +1,207 @@
+{
+   "SPECIES_LIST": {
+      "SPECIES": [
+         {
+            "id": "0", 
+            "name": "H<sub>2</sub>O", 
+            "enthalpy": "-285.83", 
+            "entropy": "69.91", 
+            "state": "l"
+         }, 
+         {
+            "id": "1", 
+            "name": "H<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0"
+         }, 
+         {
+            "id": "2", 
+            "name": "OH<sup>-</sup>", 
+            "enthalpy": "-229.99", 
+            "entropy": "-10.75"
+         }, 
+         {
+            "id": "3", 
+            "name": "Dye<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0", 
+            "hue": "184", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.0000017"
+         }, 
+         {
+            "id": "4", 
+            "name": "DNA", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0"
+         }, 
+         {
+            "id": "5", 
+            "name": "(Dye)<sub>2</sub>DNA<sup>+2</sup>", 
+            "enthalpy": "u1", 
+            "entropy": "66.00", 
+            "hue": "254", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.0000009"
+         }, 
+         {
+            "id": "6", 
+            "name": "AT6", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0"
+         }, 
+         {
+            "id": "7", 
+            "name": "(S5)<sub>2</sub>AT6<sup>+2</sup>", 
+            "enthalpy": "-42.1", 
+            "entropy": "67.02", 
+            "hue": "254", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.0000009"
+         }, 
+         {
+            "id": "8", 
+            "name": "A3T3", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0"
+         }, 
+         {
+            "id": "9", 
+            "name": "(S5)<sub>2</sub>A3T3<sup>+2</sup>", 
+            "enthalpy": "-35.97", 
+            "entropy": "66.03", 
+            "hue": "254", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.0000009"
+         }, 
+         {
+            "id": "10", 
+            "name": "AT10", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0"
+         }, 
+         {
+            "id": "11", 
+            "name": "(S5)<sub>4</sub>AT10<sup>+4</sup>", 
+            "enthalpy": "-91.92", 
+            "entropy": "111.01", 
+            "hue": "254", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.00000045"
+         }, 
+         {
+            "id": "12", 
+            "name": "SC3<sup>+3</sup>", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0", 
+            "hue": "184", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.00000017"
+         }, 
+         {
+            "id": "13", 
+            "name": "IC6", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0"
+         }, 
+         {
+            "id": "14", 
+            "name": "(SC3)<sub>2</sub>IC6<sup>+6</sup>", 
+            "enthalpy": "-34.97", 
+            "entropy": "65.52", 
+            "hue": "247", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.0000009"
+         }, 
+         {
+            "id": "15", 
+            "name": "I<sup>-</sup>", 
+            "enthalpy": "-55.19", 
+            "entropy": "111.3"
+         }, 
+         {
+            "id": "16", 
+            "name": "Br<sup>-</sup>", 
+            "enthalpy": "-121.55", 
+            "entropy": "82.4"
+         }, 
+         {
+            "id": "17", 
+            "name": "(SC3)<sub>2</sub>AT5<sup>+6</sup>", 
+            "enthalpy": "-35.02", 
+            "entropy": "66.09", 
+            "hue": "254", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.0000009"
+         }, 
+         {
+            "id": "18", 
+            "name": "(S5)<sub>2</sub>IC6<sup>+2</sup>", 
+            "enthalpy": "-43.1", 
+            "entropy": "66", 
+            "hue": "247", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.0000009"
+         }, 
+         {
+            "id": "19", 
+            "name": "(SC3)<sub>2</sub>AT6<sup>+6</sup>", 
+            "enthalpy": "-34.3", 
+            "entropy": "66", 
+            "hue": "254", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.0000009"
+         }, 
+         {
+            "id": "20", 
+            "name": "(SC3)<sub>2</sub>A3T3<sup>+6</sup>", 
+            "enthalpy": "-28.5", 
+            "entropy": "66.5", 
+            "hue": "254", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.0000009"
+         }, 
+         {
+            "id": "21", 
+            "name": "(SC3)<sub>4</sub>AT10<sup>+12</sup>", 
+            "enthalpy": "-75.23", 
+            "entropy": "111.3", 
+            "hue": "254", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.00000045"
+         }, 
+         {
+            "id": "22", 
+            "name": "(SC3)<sub>2</sub>AT10<sup>+6</sup>", 
+            "enthalpy": "-35.02", 
+            "entropy": "43", 
+            "hue": "254", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.0000009"
+         }, 
+         {
+            "id": "23", 
+            "name": "(S5)<sub>2</sub>AT10<sup>+2</sup>", 
+            "enthalpy": "-43.2", 
+            "entropy": "43", 
+            "hue": "254", 
+            "saturation": "33", 
+            "value": "100", 
+            "colorConcentration": "0.0000009"
+         }
+      ]
+   }
+}

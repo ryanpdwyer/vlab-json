@@ -1,0 +1,57 @@
+{
+   "SPECIES_LIST": {
+      "SPECIES": [
+         {
+            "id": "0", 
+            "name": "H<sub>2</sub>O", 
+            "enthalpy": "-285.83", 
+            "entropy": "69.91", 
+            "state": "l"
+         }, 
+         {
+            "id": "1", 
+            "name": "H<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0"
+         }, 
+         {
+            "id": "2", 
+            "name": "OH<sup>-</sup>", 
+            "enthalpy": "-229.99", 
+            "entropy": "-10.75"
+         }, 
+         {
+            "id": "3", 
+            "name": "NO<sub>3</sub><sup>-</sup>", 
+            "enthalpy": "-205.0", 
+            "entropy": "146.4"
+         }, 
+         {
+            "id": "7", 
+            "name": "Cl<sup>-</sup>", 
+            "enthalpy": "-167.16", 
+            "entropy": "56.5"
+         }, 
+         {
+            "id": "8", 
+            "name": "Na<sup>+</sup>", 
+            "enthalpy": "-240.12", 
+            "entropy": "59.0"
+         }, 
+         {
+            "id": "9", 
+            "name": "Ag<sup>+</sup>", 
+            "enthalpy": "105.58", 
+            "entropy": "72.68"
+         }, 
+         {
+            "id": "10", 
+            "name": "AgCl", 
+            "enthalpy": "-127.07", 
+            "entropy": "96.2", 
+            "state": "s", 
+            "molecularWeight": "143.3209"
+         }
+      ]
+   }
+}

@@ -1,0 +1,58 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "X(NO<sub>3</sub>)<sub>2</sub>",
+                  "description": "1 M X<sup>2+</sup> Solution",
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "5",
+                        "amount": "0.1"
+                     }, 
+                     {
+                        "id": "4",
+                        "amount": "0.2"
+                     }
+                  ]
+               },
+               {
+                  "name": "KY",
+                  "description": "1 M Y<sup>-</sup> Solution",
+                  "volume": "0.1",
+                  "species": [
+                     {
+                        "id": "0"
+                     },
+                     {
+                        "id": "3",
+                        "amount": "0.1"
+                     },
+                     {
+                        "id": "6",
+                        "amount": "0.1"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

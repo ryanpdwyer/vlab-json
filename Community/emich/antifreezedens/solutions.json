@@ -1,0 +1,118 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.51865"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "20% Ethylene Glycol", 
+                  "description": "20% Ethylene glycol solution", 
+                  "volume": "0.1",  
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "4.31211225"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "0.376859286"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "30% Ethylene Glycol", 
+                  "description": "30% Ethylene glycol solution", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "3.61520522"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "0.602036618"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "50% Ethylene Glycol", 
+                  "description": "50% Ethylene glycol solution", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "2.4827313"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "0.967949784"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown A", 
+                  "description": "Unknown ethylene glycol solution", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "3.93462094"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "0.49883034"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown B", 
+                  "description": "Unknown ethylene glycol solution", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "2.19235336"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "1.06177367"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown C", 
+                  "description": "Unknown ethylene glycol solution", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "2.99089267"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "0.803757978"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "freeze.htm", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

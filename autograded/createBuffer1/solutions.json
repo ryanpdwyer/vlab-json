@@ -1,0 +1,122 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1M HCl", 
+                  "description": "0.1 Molar Hydrochloric Acid", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "7", 
+                        "amount": "0.01"
+                     }, 
+                     {
+                        "id": "1", 
+                        "amount": "0.01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1M NaOH", 
+                  "description": "0.1M Sodium Hydroxide", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "8", 
+                        "amount": "0.01"
+                     }, 
+                     {
+                        "id": "2", 
+                        "amount": "0.01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1M CH<sub>3</sub>COOH", 
+                  "description": "0.1 Molar Acetic Acid", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "22", 
+                        "amount": "0.01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1M NaCH<sub>3</sub>COO", 
+                  "description": "0.1M Sodium Acetate", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "8", 
+                        "amount": "0.01"
+                     }, 
+                     {
+                        "id": "23", 
+                        "amount": "0.01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1M NH<sub>3</sub>", 
+                  "description": "0.1 Molar Ammonia", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "33", 
+                        "amount": "0.01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1M NH<sub>4</sub>Cl", 
+                  "description": "0.1 Molar Ammonium Chloride", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "7", 
+                        "amount": "0.01"
+                     }, 
+                     {
+                        "id": "36", 
+                        "amount": "0.01"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

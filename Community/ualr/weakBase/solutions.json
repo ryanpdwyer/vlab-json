@@ -1,0 +1,461 @@
+{
+  "FILESYSTEM": {
+    "DIRECTORY": [
+      {
+        "name": "stockroom",
+        "SOLUTION": [
+		{
+          "name": "H<sub>2</sub>O",
+          "description": "Distilled Water",
+          "volume": "0.1",
+          "species": { "id": "0" }
+        },
+		 {
+			"name": "1M HCl",
+			"description": "1 Molar Hydrochloric Acid",
+			"volume": "0.1",
+			"species": [
+			  { "id": "0" },
+			  {
+				"id": "11",
+				"amount": "0.1"
+			  },
+			  {
+				"id": "1",
+				"amount": "0.1"
+			  }
+			]
+		  },
+		  {
+			"name": "3M HCl",
+			"description": "3 Molar Hydrochloric Acid",
+			"volume": "0.1",
+			"species": [
+			  { "id": "0" },
+			  {
+				"id": "11",
+				"amount": "0.3"
+			  },
+			  {
+				"id": "1",
+				"amount": "0.3"
+			  }
+			]
+		  }],
+        "DIRECTORY": [
+          {
+            "name": "Weak Bases",
+            "SOLUTION": [
+              {
+				"name": "1M C<sub>5</sub>H<sub>5</sub>N",
+				"description": "1 Molar Pyridine",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+					"id": "13",
+					"amount": "0.1"
+				  }
+				]
+			  },
+              {
+				"name": "1M HONH<sub>2</sub>",
+				"description": "1 Molar Hydroxylamine",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+					"id": "6",
+					"amount": "0.1"
+				  }
+				]
+			  },
+              {
+				"name": "1M H<sub>2</sub>NNH<sub>2</sub>",
+				"description": "1 Molar Hydrazine",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+					"id": "8",
+					"amount": "0.1"
+				  }
+				]
+			  },
+              {
+				"name": "1M C<sub>6</sub>H<sub>5</sub>NH<sub>2</sub>",
+				"description": "1 Molar Analine",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+					"id": "4",
+					"amount": "0.1"
+				  }
+				]
+			  },
+              {
+				"name": "1M C<sub>2</sub>H<sub>5</sub>NH<sub>2</sub>",
+				"description": "1 Molar Ethylamine",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+					"id": "10",
+					"amount": "0.1"
+				  }
+				]
+			  }
+            ]
+          },
+          {
+            "name": "Unknowns 1-14",
+            "SOLUTION": [
+              {
+                "name": "1M Unknown01",
+                "description": "1M Unknown Base 1",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "4",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown02",
+                "description": "1M Unknown Base 2",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "6",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown03",
+                "description": "1M Unknown Base 3",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "8",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown04",
+                "description": "1M Unknown Base 4",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "10",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown05",
+                "description": "1M Unknown Base 5",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "13",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown06",
+                "description": "1M Unknown Base 6",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "4",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown07",
+                "description": "1M Unknown Base 7",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "6",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown08",
+                "description": "1M Unknown Base 8",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "8",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown09",
+                "description": "1M Unknown Base 9",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "10",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown10",
+                "description": "1M Unknown Base 10",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "13",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown11",
+                "description": "1M Unknown Base 11",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "4",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown12",
+                "description": "1M Unknown Base 12",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "6",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown13",
+                "description": "1M Unknown Base 13",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "8",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown14",
+                "description": "1M Unknown Base 14",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "10",
+                    "amount": "0.1"
+                  }
+                ]
+              }
+            ]
+          },
+		  {
+            "name": "Unknowns 15-28",
+            "SOLUTION": [
+              {
+                "name": "1M Unknown15",
+                "description": "1M Unknown Base 15",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "13",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown16",
+                "description": "1M Unknown Base 16",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "4",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown17",
+                "description": "1M Unknown Base 17",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "6",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown18",
+                "description": "1M Unknown Base 18",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "8",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown19",
+                "description": "1M Unknown Base 19",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "10",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown20",
+                "description": "1M Unknown Base 20",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "13",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown21",
+                "description": "1M Unknown Base 21",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "4",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown22",
+                "description": "1M Unknown Base 22",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "6",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown23",
+                "description": "1M Unknown Base 23",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "8",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown24",
+                "description": "1M Unknown Base 24",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "10",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown25",
+                "description": "1M Unknown Base 25",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "13",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown26",
+                "description": "1M Unknown Base 26",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "4",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown27",
+                "description": "1M Unknown Base 27",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "6",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown28",
+                "description": "1M Unknown Base 28",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "8",
+                    "amount": "0.1"
+                  }
+                ]
+              }
+            ]
+          }
+		]
+	   }
+    ]
+  }
+}

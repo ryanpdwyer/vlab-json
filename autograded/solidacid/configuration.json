@@ -1,0 +1,33 @@
+{
+  "title": "Unknown Solid Acid",
+  "solutionModellers": {
+    "waterConcentration": "waterFinite",
+    "liquidVolume": "evaluated"
+  },
+  "solutionViewers": [
+    {
+      "id": "solutionProperties",
+      "displayDefault": true,
+      "args": {
+        "honorSignificantFigures": false
+      }
+    },
+    {
+      "id": "spectrometer",
+      "displayDefault": false
+    },
+    {
+      "id": "thermometer",
+      "displayDefault": true
+    },
+    {
+      "id": "pH",
+      "displayDefault": true
+    },
+    {
+      "id": "vesselTrackingControl",
+      "displayDefault": false
+    }
+  ],
+  "transfer": ["precise", "significantFigures", "realistic"]
+}

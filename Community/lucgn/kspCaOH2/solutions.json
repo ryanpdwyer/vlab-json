@@ -1,0 +1,59 @@
+{
+  "FILESYSTEM": {
+    "DIRECTORY": [{
+      "name": "stockroom",
+      "SOLUTION": [{
+        "name": "Distilled H<sub>2</sub>O",
+        "description": "Distilled Water",
+        "volume": "3.0",
+        "vessel": "3LCarboy",
+        "species": [{ "id": "0" }]
+      },
+			{
+              "name": "0.05M HCl",
+              "description": "0.05 Molar Hydrochloric Acid",
+              "volume": "0.1",
+              "species": [
+                { "id": "0" },
+                {
+                  "id": "7",
+                  "amount": "0.005"
+                },
+                {
+                  "id": "1",
+                  "amount": "0.005"
+                }
+              ]
+            },
+			{
+              "name": "Saturated Ca(OH)<sub>2</sub>",
+              "description": "Saturated Calcium Hydroxide",
+              "volume": "0.1",
+              "species": [
+                { "id": "0" },
+                {
+                  "id": "53",
+                  "amount": "0.06"
+                }
+              ]
+            },
+			{
+			  "name": "Phenolphthalein", 
+			  "description": "Phenolphthalein Indicator Solution", 
+			  "volume": "0.1", 
+			  "vessel": "100mLBottle", 
+			  "species": [
+				 {
+					"id": "0", 
+					"amount": "5.5508"
+				 }, 
+				 {
+					"id": "47", 
+					"amount": ".00016"
+				 }
+				]
+			} 			
+	  ]
+	  }]
+  }
+}

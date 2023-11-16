@@ -1,0 +1,45 @@
+{
+  "FILESYSTEM": {
+    "DIRECTORY": [{
+      "name": "stockroom",
+      "SOLUTION": [
+        {
+          "name": "Distilled H<sub>2</sub>O",
+          "description": "Distilled Water",
+          "volume": "3.0",
+          "vessel": "3LCarboy",
+          "species": [{ "id": "0"  }]
+        },
+        {
+              "name": "Sucrose",
+              "description": "Solid Sucrose",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "id": "3",
+                  "amount": "0.5"
+                }
+              ]
+            },
+			{
+              "name": "Generic Cola",
+              "description": "Sample of Generic Cola",
+              "volume": "0.1",
+              "species": [
+                { 
+                  "id": "0"
+				},
+                {
+                  "id": "4",
+                  "amount": "0.06"
+                },
+                {
+                  "id": "5",
+                  "amount": "0.0005"
+                }
+              ]
+            }
+      ]
+    }]
+  }
+}

@@ -1,0 +1,69 @@
+{
+   "SPECIES_LIST": {
+      "SPECIES": [
+         {
+            "id": "0", 
+            "name": "H<sub>2</sub>O", 
+            "enthalpy": "-285.83", 
+            "entropy": "69.91", 
+            "state": "l", 
+            "molecularWeight": "18.016"
+         }, 
+         {
+            "id": "1", 
+            "name": "H<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0", 
+            "molecularWeight": "1.008"
+         }, 
+         {
+            "id": "2", 
+            "name": "OH<sup>-</sup>", 
+            "enthalpy": "-229.99", 
+            "entropy": "-10.75", 
+            "molecularWeight": "17.008"
+         }, 
+         {
+            "id": "3", 
+            "name": "Ethyleneglycol", 
+            "enthalpy": "0", 
+            "entropy": "0", 
+            "state": "aq", 
+            "molecularWeight": "62.07", 
+            "density": "1.1088", 
+            "waterReplacement": "3.11", 
+            "specificHeat": "0.57"
+         }, 
+         {
+            "id": "4", 
+            "name": "CompoundC", 
+            "enthalpy": "0", 
+            "entropy": "0", 
+            "state": "aq", 
+            "hue": "233", 
+            "saturation": "33", 
+            "waterReplacement": "3.378", 
+            "value": "100", 
+            "colorConcentration": "10", 
+            "molecularWeight": "169.2", 
+            "density": "2.78", 
+            "specificHeat": "2.57"
+         }, 
+         {
+            "id": "5", 
+            "name": "CompoundA", 
+            "enthalpy": "0", 
+            "entropy": "0", 
+            "state": "aq", 
+            "hue": "113", 
+            "saturation": "53", 
+            "value": "100", 
+            "colorConcentration": "10", 
+            "molecularWeight": "44.2", 
+            "waterReplacement": "2.47", 
+            "density": "1", 
+            "specificHeat": "0.23"
+         }
+      ]
+   }
+}

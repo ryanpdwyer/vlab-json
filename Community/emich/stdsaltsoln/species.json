@@ -1,0 +1,157 @@
+{
+  "SPECIES_LIST": {
+    "SPECIES": [
+      {
+        "id": "0",
+        "name": "H<sub>2</sub>O",
+        "enthalpy": "-285.83",
+        "entropy": "69.91",
+        "molecularWeight": "18.016",
+        "state": "l",
+        "unitActivity": "true"
+      },
+      {
+        "id": "1",
+        "name": "H<sup>+</sup>",
+        "enthalpy": "0.0",
+        "entropy": "0.0",
+        "molecularWeight": "1.008"
+      },
+      {
+        "id": "2",
+        "name": "OH<sup>-</sup>",
+        "enthalpy": "-229.99",
+        "entropy": "-10.75",
+        "molecularWeight": "17.008"
+      },
+      {
+        "id": "4",
+        "name": "Mg<sup>+2</sup>",
+        "enthalpy": "-466.85",
+        "entropy": "-138.1",
+        "density": "0",
+        "molecularWeight": "24.31"
+      },
+      {
+        "id": "8",
+        "name": "Cl<sup>-</sup>",
+        "enthalpy": "-167.16",
+        "entropy": "56.5",
+        "density": "3.155",
+        "molecularWeight": "35.45"
+      },
+      {
+        "id": "11",
+        "name": "SO<sub>4</sub><sup>-2</sup>",
+        "enthalpy": "-909.27",
+        "entropy": "20.1",
+        "density": "12.61",
+        "molecularWeight": "96.058"
+      },
+      {
+        "id": "12",
+        "name": "Ag<sup>+</sup>",
+        "enthalpy": "105.579",
+        "entropy": "72.68",
+        "molecularWeight": "107.868",
+        "density": "4.4"
+      },
+      {
+        "id": "13",
+        "name": "NO<sub>3</sub><sup>-</sup>",
+        "enthalpy": "-205",
+        "entropy": "62.005",
+        "molecularWeight": "62.005",
+        "density": "1.6"
+      },
+      {
+        "id": "14",
+        "name": "NaCl",
+        "enthalpy": "-411.15",
+        "entropy": "72.13",
+        "molecularWeight": "58.44",
+        "density": "2.165",
+        "state": "s"
+      },
+      {
+        "id": "15",
+        "name": "Na<sup>+</sup>",
+        "enthalpy": "-240.12",
+        "entropy": "59.0",
+        "density": "2.662",
+        "molecularWeight": "22.990"
+      },
+      {
+        "id": "16",
+        "name": "MgCl<sub>2</sub>",
+        "enthalpy": "-641.32",
+        "entropy": "89.62",
+        "molecularWeight": "95.22",
+        "density": "2.316",
+        "state": "s"
+      },
+      {
+        "id": "17",
+        "name": "Na<sub>2</sub>SO<sub>4</sub>",
+        "enthalpy": "-1387.08",
+        "entropy": "149.58",
+        "molecularWeight": "142.04",
+        "density": "2.68",
+        "state": "s"
+      },
+      {
+        "id": "18",
+        "name": "MgSO<sub>4</sub>",
+        "enthalpy": "-1284.9",
+        "entropy": "91.6",
+        "molecularWeight": "120.37",
+        "density": "2.66",
+        "state": "s"
+      },
+      {
+        "id": "19",
+        "name": "Na<sub>2</sub>SO<sub>4</sub> · 10H<sub>2</sub>O",
+        "enthalpy": "-1445.29",
+        "entropy": "-50.4",
+        "molecularWeight": "322.188",
+        "density": "1.464",
+        "state": "s"
+      },
+      {
+        "id": "20",
+        "name": "AgNO<sub>3</sub>",
+        "enthalpy": "-105.39",
+        "entropy": "85.3",
+        "molecularWeight": "169.873",
+        "density": "4.4",
+        "state": "s"
+      },
+      {
+        "id": "21",
+        "name": "AgCl",
+        "enthalpy": "-72",
+        "entropy": "280.2",
+        "molecularWeight": "143.3",
+        "density": "5.5",
+        "state": "s"
+      },
+      {
+        "id": "22",
+        "name": "Ag<sub>2</sub>SO<sub>4</sub>",
+        "enthalpy": "-715.9",
+        "entropy": "-618.4",
+        "molecularWeight": "311.7",
+        "density": "5",
+        "state": "s"
+      },
+      {
+        "id": "23",
+        "name": "WaterWeight",
+        "state": "l",
+        "enthalpy": "-2.21",
+        "entropy": "14.91",
+        "molecularWeight": "18.015"
+      }
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Sample A", 
+                  "description": "Sample Solution from Drum A", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "14", 
+                        "amount": "0.6"
+                     }, 
+                     {
+                        "id": "12", 
+                        "amount": "0.6"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Sample B", 
+                  "description": "Sample Solution from Drum B", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "15", 
+                        "amount": "0.4"
+                     }, 
+                     {
+                        "id": "12", 
+                        "amount": "0.8"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Sample C", 
+                  "description": "Sample Solution from Drum C", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "0.6"
+                     }, 
+                     {
+                        "id": "12", 
+                        "amount": "1.2"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Sample D", 
+                  "description": "Sample Solution from Drum D", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "14", 
+                        "amount": "0.6"
+                     }, 
+                     {
+                        "id": "12", 
+                        "amount": "0.6"
+                     }
+                  ]
+               }
+            ], 
+            "DIRECTORY": [
+               {
+                  "name": "Known-ions", 
+                  "SOLUTION": [
+                     {
+                        "name": "Hg<sub>2</sub><sup>+2</sup>", 
+                        "description": "6M Mercury(I) Ions in Solution", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "3", 
+                              "amount": "0.6"
+                           }, 
+                           {
+                              "id": "12", 
+                              "amount": "1.2"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Ca<sup>+2</sup>", 
+                        "description": "4M Calcium(II) Ions in Solution", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "10", 
+                              "amount": "0.4"
+                           }, 
+                           {
+                              "id": "12", 
+                              "amount": "0.8"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Mg<sup>+2</sup>", 
+                        "description": "4M Magnesium Ions in Solution", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "15", 
+                              "amount": "0.4"
+                           }, 
+                           {
+                              "id": "12", 
+                              "amount": "0.8"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Na<sup>+1</sup>", 
+                        "description": "6M Sodium Ions in Solution", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "14", 
+                              "amount": "0.6"
+                           }, 
+                           {
+                              "id": "12", 
+                              "amount": "0.6"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Cl<sup>-1</sup>", 
+                        "description": "12M Chloride Ions in Solution", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "14", 
+                              "amount": "1.2"
+                           }, 
+                           {
+                              "id": "7", 
+                              "amount": "1.2"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "sci.html", 
+               "description": "Scientific Method Lab Handout", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

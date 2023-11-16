@@ -1,0 +1,518 @@
+{
+  "FILESYSTEM": {
+    "DIRECTORY": [
+      {
+        "name": "stockroom",
+        "SOLUTION": [
+		{
+          "name": "H<sub>2</sub>O",
+          "description": "Distilled Water",
+          "volume": "0.1",
+          "species": { "id": "0" }
+        }
+		 ],
+        "DIRECTORY": [
+          {
+            "name": "Diprotic Acids",
+            "SOLUTION": [
+              {
+				"name": "1M Cystine",
+				"description": "1M Cystine",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+				  "id": "15",
+				  "amount": "0.10"
+				  }
+				]
+			  },
+              {
+				"name": "1M Maleic Acid",
+				"description": "1M Maleic Acid",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+				  "id": "6",
+				  "amount": "0.10"
+				  }
+				]
+			  },
+              {
+				"name": "1M Sulfurous Acid",
+				"description": "1M Sulfurous Acid",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+				  "id": "9",
+				  "amount": "0.10"
+				  }
+				]
+			  },
+              {
+				"name": "1M Glycine",
+				"description": "1M Glycine",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+				  "id": "12",
+				  "amount": "0.10"
+				  }
+				]
+			  },
+              {
+				"name": "1M Tartaric Acid",
+				"description": "1M Tartaric Acid",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+				  "id": "18",
+				  "amount": "0.10"
+				  }
+				]
+			  },
+              {
+				"name": "1M Tellurous Acid",
+				"description": "1M Tellurous Acid",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+				  "id": "21",
+				  "amount": "0.10"
+				  }
+				]
+			  },
+              {
+				"name": "1M Malonic Acid",
+				"description": "1M Malonic Acid",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+				  "id": "3",
+				  "amount": "0.10"
+				  }
+				]
+			  },
+              {
+				"name": "1M Phosphoric Acid",
+				"description": "1M Phosphoric Acid",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+				  "id": "37",
+				  "amount": "0.1"
+				  }
+				]
+			  }
+            ]
+          },{
+            "name": "Strong Bases",
+            "SOLUTION": [
+              {
+				"name": "0.1M NaOH",
+				"description": "0.1M Sodium Hydroxide",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+{
+                  "id": "24",
+                  "amount": "0.01"
+                },
+                {
+                  "id": "2",
+                  "amount": "0.01"
+                }
+				]
+			  },
+              {
+				"name": "1M NaOH",
+				"description": "1M Sodium Hydroxide",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+{
+                  "id": "24",
+                  "amount": "0.1"
+                },
+                {
+                  "id": "2",
+                  "amount": "0.1"
+                }
+				]
+			  },
+              {
+				"name": "10M NaOH",
+				"description": "10M Sodium Hydroxide",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+{
+                  "id": "24",
+                  "amount": "1.0"
+                },
+                {
+                  "id": "2",
+                  "amount": "1.0"
+                }
+				]
+			  }
+            ]
+          },
+          {
+            "name": "Unknowns 1-14",
+            "SOLUTION": [
+              {
+                "name": "1M Unknown 01",
+                "description": "1M Unknown 1",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "51",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 02",
+                "description": "1M Unknown 2",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "54",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 03",
+                "description": "1M Unknown 3",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "57",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 04",
+                "description": "1M Unknown 4",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "60",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 05",
+                "description": "1M Unknown 5",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "63",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 06",
+                "description": "1M Unknown 6",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "66",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 07",
+                "description": "1M Unknown 7",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "69",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 08",
+                "description": "1M Unknown 8",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "72",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 09",
+                "description": "1M Unknown 9",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "75",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 10",
+                "description": "1M Unknown 10",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "78",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 11",
+                "description": "1M Unknown 11",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "81",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 12",
+                "description": "1M Unknown 12",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "84",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 13",
+                "description": "1M Unknown 13",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "87",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 14",
+                "description": "1M Unknown 14",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "90",
+					  "amount": "0.1"
+                  }
+                ]
+              }
+            ]
+          },
+		  {
+            "name": "Unknowns 15-28",
+            "SOLUTION": [
+              {
+                "name": "1M Unknown 15",
+                "description": "1M Unknown 15",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "93",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 16",
+                "description": "1M Unknown 16",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "96",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 17",
+                "description": "1M Unknown 17",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "99",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 18",
+                "description": "1M Unknown 18",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "102",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 19",
+                "description": "1M Unknown 19",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "105",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 20",
+                "description": "1M Unknown 20",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "108",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 21",
+                "description": "1M Unknown 21",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "111",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 22",
+                "description": "1M Unknown 22",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "114",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 23",
+                "description": "1M Unknown 23",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "117",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 24",
+                "description": "1M Unknown 24",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "120",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 25",
+                "description": "1M Unknown 25",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "123",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 26",
+                "description": "1M Unknown 26",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "126",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 27",
+                "description": "1M Unknown 27",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "129",
+					  "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown 28",
+                "description": "1M Unknown 28",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+					  "id": "132",
+					  "amount": "0.1"
+                  }
+                ]
+              }
+            ]
+          }
+		]
+	   }
+    ]
+  }
+}

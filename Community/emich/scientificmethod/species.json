@@ -1,0 +1,123 @@
+{
+   "SPECIES_LIST": {
+      "SPECIES": [
+         {
+            "id": "0", 
+            "name": "H<sub>2</sub>O", 
+            "enthalpy": "-285.83", 
+            "entropy": "69.91", 
+            "state": "l"
+         }, 
+         {
+            "id": "1", 
+            "name": "H<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0"
+         }, 
+         {
+            "id": "2", 
+            "name": "OH<sup>-</sup>", 
+            "enthalpy": "-229.99", 
+            "entropy": "-10.75"
+         }, 
+         {
+            "id": "3", 
+            "name": "Hg<sub>2</sub><sup>+2</sup>", 
+            "enthalpy": "172.0", 
+            "entropy": "84.5"
+         }, 
+         {
+            "id": "4", 
+            "name": "SO<sub>4</sub><sup>-2</sup>", 
+            "enthalpy": "-907.51", 
+            "entropy": "17.0"
+         }, 
+         {
+            "id": "5", 
+            "name": "Hg<sub>2</sub>SO<sub>4</sub>", 
+            "enthalpy": "-743.1", 
+            "entropy": "101", 
+            "state": "s", 
+            "hue": "0", 
+            "saturation": "0", 
+            "value": "10", 
+            "colorConcentration": ".03", 
+            "molecularWeight": "497.24"
+         }, 
+         {
+            "id": "6", 
+            "name": "Cu<sup>+2</sup>", 
+            "enthalpy": "64.77", 
+            "entropy": "-99.6"
+         }, 
+         {
+            "id": "7", 
+            "name": "Cl<sup>-1</sup>", 
+            "enthalpy": "-167.46", 
+            "entropy": "56.5"
+         }, 
+         {
+            "id": "8", 
+            "name": "CuCl<sub>2</sub>", 
+            "enthalpy": "-264.9", 
+            "entropy": "100", 
+            "state": "s", 
+            "molecularWeight": "99"
+         }, 
+         {
+            "id": "9", 
+            "name": "Hg<sub>2</sub>Cl<sub>2</sub>", 
+            "enthalpy": "-264.9", 
+            "entropy": "100", 
+            "state": "s", 
+            "hue": "0", 
+            "saturation": "0", 
+            "value": "50", 
+            "colorConcentration": ".03", 
+            "molecularWeight": "472.09"
+         }, 
+         {
+            "id": "10", 
+            "name": "Ca<sup>+2</sup>", 
+            "enthalpy": "-542.83", 
+            "entropy": "-53.10000000000002"
+         }, 
+         {
+            "id": "11", 
+            "name": "CaSO<sub>4</sub>", 
+            "enthalpy": "-1434.5", 
+            "entropy": "106.5", 
+            "state": "s", 
+            "hue": "180", 
+            "saturation": "0", 
+            "value": "100", 
+            "colorConcentration": ".03", 
+            "molecularWeight": "120.9"
+         }, 
+         {
+            "id": "12", 
+            "name": "NO<sub>3</sub><sup>-</sup>", 
+            "enthalpy": "-205.0", 
+            "entropy": "146.4"
+         }, 
+         {
+            "id": "13", 
+            "name": "Co<sup>+2</sup>", 
+            "enthalpy": "-58.2", 
+            "entropy": "-113.0"
+         }, 
+         {
+            "id": "14", 
+            "name": "Na<sup>+</sup>", 
+            "enthalpy": "-240.12", 
+            "entropy": "59.0"
+         }, 
+         {
+            "id": "15", 
+            "name": "Mg<sup>+2</sup>", 
+            "enthalpy": "-240.12", 
+            "entropy": "59.0"
+         }
+      ]
+   }
+}

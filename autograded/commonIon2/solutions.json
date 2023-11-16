@@ -1,0 +1,49 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.51865"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "AgCl", 
+                  "description": "Silver Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "8", 
+                        "amount": "2.4"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M Ligand L", 
+                  "description": "1M Ligand L solution", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.450599468"
+                     }, 
+                     {
+                        "id": "10", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

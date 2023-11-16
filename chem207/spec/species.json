@@ -1,0 +1,85 @@
+{
+  "SPECIES_LIST": {
+    "SPECIES": [
+      {
+        "entropy": "69.91",
+        "name": "H<sub>2</sub>O",
+        "state": "l",
+        "enthalpy": "-285.83",
+        "density": "1.000",
+        "specificHeat": "1.000",
+        "molecularWeight": "18.01534",
+        "id": "0"
+      },
+      {
+        "entropy": "0.0",
+        "name": "H<sup>+</sup>",
+        "enthalpy": "0.0",
+        "id": "1"
+      },
+      {
+        "entropy": "-10.75",
+        "name": "OH<sup>-</sup>",
+        "enthalpy": "-229.99",
+        "id": "2"
+      },
+      {
+        "id": "3",
+            "name": "Fe<sup>+3</sup>", 
+            "enthalpy": "202", 
+            "entropy": "315.9", 
+            "hue": "43", 
+            "saturation": "100", 
+            "value": "77", 
+            "colorConcentration": ".008", 
+            "molecularWeight": "55.8452",
+			"density": "1.400"
+      },
+      {
+		"id": "4",
+        "name": "C<sub>7</sub>H<sub>6</sub>O<sub>3</sub>",
+        "enthalpy": "-89.1",
+        "entropy": "-137.7",
+		"molecularWeight": "138.12"
+      },
+      {
+        "id": "5",
+        "name": "Fe(C<sub>7</sub>H<sub>5</sub>O<sub>3</sub>)<sub>3</sub>",
+        "enthalpy": "65.0",
+        "entropy": "1458.70445045375004",
+        "hue": "275",
+        "saturation": "100",
+        "value": "93",
+        "colorConcentration": ".005",
+	    "molecularWeight": "467.18"
+      }, 
+	  {
+        "id": "6",
+        "name": "C<sub>7</sub>H<sub>5</sub>O<sub>3</sub><sup>-</sup>",
+        "enthalpy": "-72.14711515605298",
+        "entropy": "-137.7",
+		"molecularWeight": "137.12"
+      },
+      {
+        "id": "7",
+        "name": "FeCl<sub>3</sub>",
+        "enthalpy": "-280.0",
+        "entropy": "433.7402393076368",
+        "hue": "43",
+        "saturation": "73",
+        "value": "90",
+	    "molecularWeight": "270.2957",
+		"state": "s",
+		"density": "1.82",
+        "colorConcentration": ".0003"
+      },
+      {
+        "id": "8",
+        "name": "Cl<sup>-</sup>",
+        "enthalpy": "-167.16",
+        "entropy": "56.5",
+		"molecularWeight": "35.453"
+      }
+    ]
+  }
+}

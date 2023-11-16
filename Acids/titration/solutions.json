@@ -1,0 +1,80 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }
+            ], 
+            "DIRECTORY": [
+               {
+                  "name": "Solutions", 
+                  "SOLUTION": [
+                     {
+                        "name": "~1M NaOH", 
+                        "description": "Approx 1M Sodium Hydroxide", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "8", 
+                              "amount": "0.09445"
+                           }, 
+                           {
+                              "id": "2", 
+                              "amount": "0.09445"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "0.500M KHP", 
+                        "description": "0.500 Molar KHP Solution", 
+                        "volume": "0.025", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "51", 
+                              "amount": "0.01250"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Phenolphthalein", 
+                        "description": "Phenolphthalein Indicator Solution", 
+                        "volume": "0.1", 
+                        "vessel": "100mLBottle", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "47", 
+                              "amount": ".0000002"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "titration.htm", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

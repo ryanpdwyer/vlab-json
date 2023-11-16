@@ -1,0 +1,114 @@
+{
+  "FILESYSTEM": {
+    "DIRECTORY": [{
+      "name": "stockroom",
+      "SOLUTION": [{
+			"name": "Distilled H<sub>2</sub>O",
+			"description": "Distilled Water",
+			"volume": "3.0",
+			"vessel": "3LCarboy",
+			"species": [{ "id": "0" }]
+      }, 
+	  {
+              "name": "1M NaOH",
+              "description": "1M Sodium Hydroxide",
+              "volume": "0.1",
+              "species": [
+                { "id": "0" },
+                {
+                  "id": "8",
+                  "amount": "0.1"
+                },
+                {
+                  "id": "2",
+                  "amount": "0.1"
+                }
+              ]
+            }, 
+			{
+              "name": "0.5M NaOH",
+              "description": "0.5M Sodium Hydroxide",
+              "volume": "0.1",
+              "species": [
+                { "id": "0" },
+                {
+                  "id": "8",
+                  "amount": "0.05"
+                },
+                {
+                  "id": "2",
+                  "amount": "0.05"
+                }
+              ]
+            },
+			{
+              "name": "1M CH<sub>3</sub>COOH",
+              "description": "1 Molar Acetic Acid",
+              "volume": "0.1",
+              "species": [
+                { "id": "0" },
+                {
+                  "id": "22",
+                  "amount": "0.1"
+                }
+              ]
+            },{
+              "name": "Phenolphthalein",
+              "description": "Phenolphthalein Indicator Solution",
+              "volume": "0.1",
+              "vessel": "100mLBottle",
+              "species": [
+                { "id": "0" },
+                {
+                  "id": "47",
+                  "amount": ".00016"
+                }
+              ]
+            }
+			],
+      "DIRECTORY": [
+        {
+          "name": "Unknowns",
+          "SOLUTION": [
+            {
+              "name": "Unknown Vinegar A",
+              "description": "Unknown Vinegar Solution A",
+              "volume": "0.1",
+              "species": [
+                { "id": "0" },
+                {
+                  "id": "22",
+                  "amount": "0.06"
+                }
+              ]
+            },
+			{
+              "name": "Unknown Vinegar B",
+              "description": "Unknown Vinegar Solution B",
+              "volume": "0.1",
+              "species": [
+                { "id": "0" },
+                {
+                  "id": "22",
+                  "amount": "0.075"
+                }
+              ]
+            },
+			{
+              "name": "Unknown Vinegar C",
+              "description": "Unknown Vinegar Solution C",
+              "volume": "0.1",
+              "species": [
+                { "id": "0" },
+                {
+                  "id": "22",
+                  "amount": "0.083"
+                }
+              ]
+            }
+          ]
+        }        
+      ]
+    }]
+  }
+}

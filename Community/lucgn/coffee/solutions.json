@@ -1,0 +1,59 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Coffee", 
+                  "description": "Coffee", 
+                  "volume": "0.25", 
+		"temperature": "368.15",
+		"insulated": "true",
+                  "vessel": "250mLVolumetricFlask",
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "0.000000030"
+                     }, 
+                     {
+                        "id": "5", 
+                        "amount": "0.000000010"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Milk", 
+                  "description": "Milk", 
+                  "volume": "0.1", 
+		"temperature": "277.15",
+		"insulated": "true",
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "4", 
+                        "amount": "0.0000005"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Liquid Density Problem",
+  "solutionModellers": {
+    "waterConcentration": "waterFinite",
+    "liquidVolume": "evaluated"
+  },
+  "solutionViewers": [
+    {
+      "id": "thermometer",
+      "displayDefault": true
+    }
+  ],
+  "transfer": ["precise", "significantFigures", "realistic"]
+}

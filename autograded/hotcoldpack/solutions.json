@@ -1,0 +1,83 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.518650089"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "MgSO<sub>4</sub>", 
+                  "description": "Magnesium Sulfate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "3", 
+                        "amount": "1.9"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "K<sub>2</sub>SO<sub>4</sub>", 
+                  "description": "Potassium Sulfate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "6", 
+                        "amount": "1.3"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "KNO<sub>3</sub>", 
+                  "description": "Potassium Nitrate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "8", 
+                        "amount": "1.9"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NH<sub>4</sub>NO<sub>3</sub>", 
+                  "description": "Ammonium Nitrate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "10", 
+                        "amount": "1.9"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "100 ml Distilled H<sub>2</sub>O", 
+                  "description": "100 ml Distilled Water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.55062166963"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "thermo.html", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

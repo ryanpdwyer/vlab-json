@@ -1,0 +1,70 @@
+{
+   "SPECIES_LIST": {
+      "SPECIES": [
+         {
+            "entropy": "69.91", 
+            "name": "H<sub>2</sub>O", 
+            "state": "l", 
+            "enthalpy": "-285.83", 
+            "density": "1.000", 
+            "molecularWeight": "18.01534", 
+            "unitActivity": "true", 
+            "id": "0"
+         }, 
+         {
+            "entropy": "0.0", 
+            "name": "H<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "id": "1"
+         }, 
+         {
+            "entropy": "-10.75", 
+            "name": "OH<sup>-</sup>", 
+            "enthalpy": "-229.99", 
+            "id": "2"
+         }, 
+         {
+            "entropy": "-162.8", 
+            "name": "AsO<sub>4</sub><sup>-3</sup>", 
+            "state": "aq", 
+            "enthalpy": "-888.1", 
+            "molecularWeight": "138.92", 
+            "id": "3"
+         }, 
+         {
+            "entropy": "55.24", 
+            "name": "Ag<sub>3</sub>AsO<sub>4</sub>", 
+            "state": "s", 
+            "enthalpy": "-696.9", 
+            "molecularWeight": "462.53", 
+            "density": "6.657", 
+            "hue": "0", 
+            "saturation": "100", 
+            "value": "50", 
+            "colorConcentration": ".000015", 
+            "id": "4"
+         }, 
+         {
+            "id": "5", 
+            "name": "Ag<sup>+</sup>", 
+            "enthalpy": "105.57", 
+            "entropy": "72.68", 
+            "molecularWeight": "107.9"
+         }, 
+         {
+            "id": "6", 
+            "name": "Na<sup>+</sup>", 
+            "enthalpy": "-240.12", 
+            "entropy": "59.0", 
+            "molecularWeight": "22.99"
+         }, 
+         {
+            "id": "7", 
+            "name": "NO<sub>3</sub><sup>-</sup>", 
+            "enthalpy": "-206.85", 
+            "entropy": "146.7", 
+            "molecularWeight": "62"
+         }
+      ]
+   }
+}

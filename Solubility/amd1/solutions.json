@@ -1,0 +1,66 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "10M NaOH", 
+                  "description": "10M Sodium Hydroxide", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "8", 
+                        "amount": "1"
+                     }, 
+                     {
+                        "id": "2", 
+                        "amount": "1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Mine Drainage Sample", 
+                  "description": "Mine Drainage Sample", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "30", 
+                        "amount": ".02523"
+                     }, 
+                     {
+                        "id": "29", 
+                        "amount": ".7248"
+                     }, 
+                     {
+                        "id": "1", 
+                        "amount": ".009897"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": ".2551"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

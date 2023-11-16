@@ -1,0 +1,62 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.51865"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NaCl", 
+                  "description": "Sodium Chloride", 
+                  "volume": "0.0", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "6", 
+                        "amount": "2.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "AgCl", 
+                  "description": "Silver Chloride", 
+                  "volume": "0.0", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "8", 
+                        "amount": "1.4"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown NaCl", 
+                  "description": "Unknown Sodium Chloride dissolved in water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.42"
+                     }, 
+                     {
+                        "id": "6", 
+                        "amount": "u1,double,0.01,0.02,u"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

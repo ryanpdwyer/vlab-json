@@ -1,0 +1,80 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.5247506"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "100 mL H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.5508"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1.00 M NaOH", 
+                  "description": "1M Sodium Hydroxide", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.5508"
+                     }, 
+                     {
+                        "id": "8", 
+                        "amount": "0.1"
+                     }, 
+                     {
+                        "id": "2", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Phenolphthalein", 
+                  "description": "Phenolphthalein Indicator Solution", 
+                  "volume": "0.1", 
+                  "vessel": "100mLBottle", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.5508"
+                     }, 
+                     {
+                        "id": "47", 
+                        "amount": ".00016"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown Solid Acid", 
+                  "description": "Unknown Solid Acid", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "u1,int,8,8,u", 
+                        "amount": "u2,double,0.5,0.8,ue"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

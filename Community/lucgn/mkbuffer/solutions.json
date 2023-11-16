@@ -1,0 +1,130 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M NaOH", 
+                  "description": "1M Sodium Hydroxide", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "8", 
+                        "amount": "0.1"
+                     }, 
+                     {
+                        "id": "2", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "10M NaOH", 
+                  "description": "10M Sodium Hydroxide", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "8", 
+                        "amount": "1.0"
+                     }, 
+                     {
+                        "id": "2", 
+                        "amount": "1.0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M NaCH<sub>3</sub>COO", 
+                  "description": "1M Sodium Acetate", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "8", 
+                        "amount": "0.1"
+                     }, 
+                     {
+                        "id": "23", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "10M HCl", 
+                  "description": "10 Molar Hydrochloric Acid", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "7", 
+                        "amount": "1.0"
+                     }, 
+                     {
+                        "id": "1", 
+                        "amount": "1.0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M HCl", 
+                  "description": "1 Molar Hydrochloric Acid", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "7", 
+                        "amount": "0.1"
+                     }, 
+                     {
+                        "id": "1", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M CH<sub>3</sub>COOH", 
+                  "description": "1 Molar Acetic Acid", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "22", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "mkbuffer.htm", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

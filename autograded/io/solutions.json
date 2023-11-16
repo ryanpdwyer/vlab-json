@@ -1,0 +1,123 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.5247506"
+                     }
+                  ]
+               },
+			   {
+                        "name": "KIO<sub>3</sub>", 
+                        "description": "Solid Potassium Iodate", 
+                        "vessel": "SolidBottle", 
+                        "species": [
+                           {
+                              "id": "68", 
+                              "amount": "1.5"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "KI", 
+                        "description": "Potassium Iodide", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0", 
+                              "amount": "5.550825019"
+                           }, 
+                           {
+                              "id": "59", 
+                              "amount": "0.5"
+                           }, 
+                           {
+                              "id": "58", 
+                              "amount": "0.5"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "0.01136M C<sub>6</sub>H<sub>8</sub>O<sub>6</sub>", 
+                        "description": "0.01136M Absorbic Acid Soln", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0", 
+                              "amount": "5.550825019"
+                           }, 
+                           {
+                              "id": "61", 
+                              "amount": "0.001136"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "2M HCl", 
+                        "description": "2 Molar Hydrochloric Acid", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0", 
+                              "amount": "5.53966"
+                           }, 
+                           {
+                              "id": "7", 
+                              "amount": "0.2"
+                           }, 
+                           {
+                              "id": "1", 
+                              "amount": "0.2"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Starch", 
+                        "description": "Starch", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0", 
+                              "amount": "5.550825019"
+                           }, 
+                           {
+                              "id": "64", 
+                              "amount": "0.00005"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Peach", 
+                        "description": "Peach Soln", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0", 
+                              "amount": "5.550825019"
+                           }, 
+                           {
+                              "id": "66", 
+                              "amount": "0.01"
+                           }, 
+                           {
+                              "id": "61", 
+                              "amount": "u2,double,1,1.0001,u"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+
+
+}

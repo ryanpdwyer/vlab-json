@@ -1,0 +1,94 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.51865"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NaCl", 
+                  "description": "Sodium Chloride", 
+                  "volume": "0.0", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "6", 
+                        "amount": "2.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "AgCl", 
+                  "description": "Silver Chloride", 
+                  "volume": "0.0", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "8", 
+                        "amount": "1.4"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown NaCl A", 
+                  "description": "Unknown Sodium Chloride dissolved in water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.5373"
+                     }, 
+                     {
+                        "id": "6", 
+                        "amount": ".0122"
+                     }
+                  ]
+               },
+               {
+                  "name": "Unknown NaCl B", 
+                  "description": "Unknown Sodium Chloride dissolved in water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.5163"
+                     }, 
+                     {
+                        "id": "6", 
+                        "amount": ".0312"
+                     }
+                  ]
+               },
+               {
+                  "name": "Unknown NaCl C", 
+                  "description": "Unknown Sodium Chloride dissolved in water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.487"
+                     }, 
+                     {
+                        "id": "6", 
+                        "amount": ".0577"
+                     }
+                  ]
+               }
+
+
+            ]
+         }
+      ]
+   }
+}

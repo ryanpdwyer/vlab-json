@@ -1,0 +1,78 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy",
+                  "species": [
+                     {
+                        "id": "0",
+						 "amount": "166.5247506"
+                     }
+                  ]
+               }, 
+			   {
+              "name": "FeCl<sub>3</sub> <sup>.</sup> 6H<sub>2</sub>O",
+              "description": "Ferric Chloride Hexahydrate",
+              "vessel": "SolidBottle",
+              "species": [
+                {
+                  "id": "7",
+                  "amount": ".2"
+                }
+              ]
+            },
+			{
+              "name": "6M HCl",
+              "description": "6 Molar Hydrochloric Acid",
+              "volume": "0.1",
+              "species": [
+                { "id": "0" ,
+				 "amount": "5.5508"
+				 },
+                {
+                  "id": "8",
+                  "amount": "0.6"
+                },
+                {
+                  "id": "1",
+                  "amount": "0.6"
+                }
+              ]
+            },
+               {
+				 "name": "2% (w/v) Salicylic acid indicator",
+				  "description": "2% w/v Salicylic acid solution",
+				  "volume": "0.1",
+                  "species": [
+                     {
+                        "id": "0",
+						 "amount": "5.5508"
+                     }, 
+{
+					  "id": "4",
+						"amount": "0.01448005734"
+					}
+                  ]
+               },
+               {
+				 "name": "Distilled H<sub>2</sub>O",
+				  "description": "Distilled Water",
+				  "volume": "0.1",
+                  "species": [
+                     {
+                        "id": "0",
+						 "amount": "5.5508"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

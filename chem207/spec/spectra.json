@@ -1,0 +1,25 @@
+{
+  "SPECTRA_LIST": {
+    "SPECIES": [
+	{
+        "id": "5",
+        "BAND": [
+          {
+            "wavelength": "525",
+            "width": "200",
+            "e": "1000"
+          },
+          {
+            "wavelength": "270",
+            "width": "60",
+            "e": "4000"
+          },
+          {
+            "wavelength": "300",
+            "width": "40",
+            "e": "4000"
+          }
+        ]
+      }]
+  }
+}

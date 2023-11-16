@@ -1,0 +1,14 @@
+{
+   "SPECTRA_LIST": {
+      "SPECIES": [
+         {
+            "id": "6",
+            "BAND": {
+               "wavelength": "800", 
+               "width": "270", 
+               "e": "3"
+            }
+         }
+      ]
+   }
+}

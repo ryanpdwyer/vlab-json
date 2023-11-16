@@ -1,0 +1,11 @@
+{
+  "title": "Identify metals from their density",
+  "solutionViewers": [
+
+    {
+      "id": "thermometer",
+      "displayDefault": true
+    }
+  ],
+  "transfer": ["realistic", "significantFigures" ]
+}

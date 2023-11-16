@@ -1,0 +1,114 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NaCl", 
+                  "description": "Sodium Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "8", 
+                        "amount": "2.2"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "KCl", 
+                  "description": "Potassium Chloride",  
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "3", 
+                        "amount": "2.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NaNO<sub>3</sub>", 
+                  "description": "Sodium Nitrate",  
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "10", 
+                        "amount": "2.2"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "CuSO<sub>4</sub>", 
+                  "description": "Copper(II) Sulfate",  
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "20", 
+                        "amount": "1.2"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>", 
+                  "description": "Potassium Dichromate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "18", 
+                        "amount": ".6"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "KClO<sub>3</sub>", 
+                  "description": "Potassium Chlorate",  
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "16", 
+                        "amount": "1.2"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Ce<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>", 
+                  "description": "Cerius Sulfate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "11", 
+                        "amount": "0.6"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "100 mL Distilled H<sub>2</sub>O", 
+                  "description": "100 mL Distilled Water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "sol.htm", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

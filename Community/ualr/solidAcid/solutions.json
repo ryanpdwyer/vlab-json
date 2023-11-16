@@ -1,0 +1,430 @@
+{
+  "FILESYSTEM": {
+    "DIRECTORY": [
+      {
+        "name": "stockroom",
+        "SOLUTION": [
+		{
+          "name": "H<sub>2</sub>O",
+          "description": "Distilled Water",
+          "volume": "0.1",
+          "species": { "id": "0" }
+        },
+		{
+			"name": "Phenolphthalein",
+			"description": "Phenolphthalein",
+			"volume": "0.1",
+		    "vessel": "100mLBottle",
+			"species": [
+			  { "id": "0" },
+			  {
+				"id": "47",
+				"amount": "0.00016"
+			  }
+			]
+		  },
+		 {
+			"name": "1M NaOH",
+			"description": "1M Sodium Hydroxide",
+			"volume": "0.1",
+			"species": [
+			  { "id": "0" },
+			  {
+				"id": "15",
+				"amount": "0.1"
+			  },
+			  {
+				"id": "2",
+				"amount": "0.1"
+			  }
+			]
+		  },
+		 {
+			"name": "3M NaOH",
+			"description": "3M Sodium Hydroxide",
+			"volume": "0.1",
+			"species": [
+			  { "id": "0" },
+			  {
+				"id": "15",
+				"amount": "0.3"
+			  },
+			  {
+				"id": "2",
+				"amount": "0.3"
+			  }
+			]
+		  }],
+        "DIRECTORY": [
+          {
+            "name": "Solid Weak Acids",
+            "SOLUTION": [
+				{
+				  "name": "KHP",
+				  "description": "Solid Potassium Hydrogen Phthalate",
+				  "vessel": "SolidBottle",
+				  "species": [
+					{
+					  "id": "3",
+					  "amount": "0.4"
+					}
+					]
+				},
+				{
+				  "name": "C<sub>6</sub>H<sub>5</sub>COOH",
+				  "description": "Solid Benzoic Acid",
+				  "vessel": "SolidBottle",
+				  "species": [
+					{
+					  "id": "5",
+					  "amount": "0.6"
+					}
+					]
+				},
+				{
+				  "name": "BrCH<sub>2</sub>COOH",
+				  "description": "Solid Bromoacetic Acid",
+				  "vessel": "SolidBottle",
+				  "species": [
+					{
+					  "id": "7",
+					  "amount": "0.65"
+					}
+					]
+				},
+				{
+				  "name": "HCOCOOH",
+				  "description": "Solid Glyoxylic Acid",
+				  "vessel": "SolidBottle",
+				  "species": [
+					{
+					  "id": "9",
+					  "amount": "1.2"
+					}
+					]
+				}
+            ]
+          },
+          {
+            "name": "Unknowns 1-14",
+            "SOLUTION": [
+              {
+                "name": "Unknown01",
+                "description": "Solid Unknown Acid 1",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "5",
+                    "amount": "0.3"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown02",
+                "description": "Solid Unknown Acid 2",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "3",
+                    "amount": "0.3"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown03",
+                "description": "Solid Unknown Acid 3",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "9",
+                    "amount": "0.4"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown04",
+                "description": "Solid Unknown Acid 4",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "7",
+                    "amount": "0.5"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown05",
+                "description": "Solid Unknown Acid 5",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "5",
+                    "amount": "0.6"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown06",
+                "description": "Solid Unknown Acid 6",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "3",
+                    "amount": "0.5"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown07",
+                "description": "Solid Unknown Acid 7",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "9",
+                    "amount": "0.4"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown08",
+                "description": "Solid Unknown Acid 8",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "7",
+                    "amount": "0.35"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown09",
+                "description": "Solid Unknown Acid 9",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "5",
+                    "amount": "0.4"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown10",
+                "description": "Solid Unknown Acid 10",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "3",
+                    "amount": "0.6"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown11",
+                "description": "Solid Unknown Acid 11",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "9",
+                    "amount": "0.5"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown12",
+                "description": "Solid Unknown Acid 12",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "7",
+                    "amount": "0.6"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown13",
+                "description": "Solid Unknown Acid 13",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "5",
+                    "amount": "0.5"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown14",
+                "description": "Solid Unknown Acid 14",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "3",
+                    "amount": "0.55"
+                  }
+                ]
+              }
+            ]
+          },
+		  {
+            "name": "Unknowns 15-28",
+            "SOLUTION": [
+              {
+                "name": "Unknown15",
+                "description": "Solid Unknown Acid 15",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "9",
+                    "amount": "0.6"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown16",
+                "description": "Solid Unknown Acid 16",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "7",
+                    "amount": "0.3"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown17",
+                "description": "Solid Unknown Acid 17",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "5",
+                    "amount": "0.4"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown18",
+                "description": "Solid Unknown Acid 18",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "3",
+                    "amount": "0.5"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown19",
+                "description": "Solid Unknown Acid 19",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "9",
+                    "amount": "0.4"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown20",
+                "description": "Solid Unknown Acid 20",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "7",
+                    "amount": "0.3"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown21",
+                "description": "Solid Unknown Acid 21",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "5",
+                    "amount": "0.2"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown22",
+                "description": "Solid Unknown Acid 22",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "3",
+                    "amount": "0.4"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown23",
+                "description": "Solid Unknown Acid 23",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "9",
+                    "amount": "0.25"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown24",
+                "description": "Solid Unknown Acid 24",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "7",
+                    "amount": "0.4"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown25",
+                "description": "Solid Unknown Acid 25",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "5",
+                    "amount": "0.4"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown26",
+                "description": "Solid Unknown Acid 26",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "3",
+                    "amount": "0.6"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown27",
+                "description": "Solid Unknown Acid 27",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "9",
+                    "amount": "0.4"
+                  }
+                ]
+              },
+			  {
+                "name": "Unknown28",
+                "description": "Solid Unknown Acid 28",
+				  "vessel": "SolidBottle",
+                "species": [
+                  {
+                    "id": "7",
+                    "amount": "0.5"
+                  }
+                ]
+              }
+            ]
+          }
+		]
+	   }
+    ]
+  }
+}

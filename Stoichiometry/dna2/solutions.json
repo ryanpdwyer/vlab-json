@@ -1,0 +1,55 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown DNA<sub>a</sub> Solution", 
+                  "description": "Unknown concentration of DNA solution", 
+                  "volume": "0.05", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "4", 
+                        "amount": "0.000000028"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1e-6M Dye<sub>a</sub>", 
+                  "description": "A micro molar solution of Dye", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "0.0000001"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "dnadye2.htm", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

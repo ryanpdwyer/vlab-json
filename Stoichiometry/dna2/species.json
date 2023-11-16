@@ -1,0 +1,47 @@
+{
+   "SPECIES_LIST": {
+      "SPECIES": [
+         {
+            "id": "0", 
+            "name": "H<sub>2</sub>O", 
+            "enthalpy": "-285.83", 
+            "entropy": "69.91", 
+            "state": "l"
+         }, 
+         {
+            "id": "1", 
+            "name": "H<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0"
+         }, 
+         {
+            "id": "2", 
+            "name": "OH<sup>-</sup>", 
+            "enthalpy": "-229.99", 
+            "entropy": "-10.75"
+         }, 
+         {
+            "id": "3", 
+            "name": "Dye<sub>a</sub>", 
+            "enthalpy": "0.0", 
+            "entropy": "-100", 
+            "hue": "1",
+            "saturation": "100", 
+            "value": "90", 
+            "colorConcentration": ".000000001"
+         }, 
+         {
+            "id": "4", 
+            "name": "DNA<sub>a</sub>", 
+            "enthalpy": "0.0", 
+            "entropy": "-50.0"
+         }, 
+         {
+            "id": "5", 
+            "name": "Dye<sub>a</sub>-DNA<sub>a</sub>", 
+            "enthalpy": "0.0", 
+            "entropy": "650.0"
+         }
+      ]
+   }
+}

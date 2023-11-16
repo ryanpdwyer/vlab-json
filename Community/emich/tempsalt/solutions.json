@@ -1,0 +1,103 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NaCl", 
+                  "description": "Sodium Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "8", 
+                        "amount": "2.2"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "KCl", 
+                  "description": "Potassium Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "3", 
+                        "amount": "2.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Ce<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>", 
+                  "description": "Cerium Sulfate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "11", 
+                        "amount": "0.6"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NH<sub>4</sub>Cl", 
+                  "description": "Ammonium Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "23", 
+                        "amount": "2.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "CaCl<sub>2</sub>", 
+                  "description": "Calcium Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "26", 
+                        "amount": "2.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "MgCl<sub>2</sub>", 
+                  "description": "Magnesium Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "28", 
+                        "amount": "2.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "100 ml Distilled H<sub>2</sub>O", 
+                  "description": "100 ml Distilled Water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "sol.htm", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

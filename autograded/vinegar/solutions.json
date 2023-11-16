@@ -1,0 +1,70 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.110 M NaOH", 
+                  "description": "0.110 M Sodium Hydroxide", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "amount": "0.011", 
+                        "id": "4"
+                     }, 
+                     {
+                        "amount": "0.011", 
+                        "id": "2"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Vinegar", 
+                  "description": "Vinegar", 
+                  "volume": "0.1", 
+                  "vessel": "100mLVolumetricFlask",
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "amount": "u1,double,0.08326,0.1199,u", 
+                        "id": "5"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Phenolphthalein", 
+                  "description": "Phenolphthalein Indicator Solution", 
+                  "volume": "0.1", 
+                  "vessel": "100mLBottle", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "amount": "1.6E-4", 
+                        "id": "7"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

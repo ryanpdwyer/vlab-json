@@ -1,0 +1,118 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.5186501"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NH<sub>4</sub>Cl", 
+                  "description": "Ammonium Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "23", 
+                        "amount": "2.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "CaCl<sub>2</sub>", 
+                  "description": "Calcium Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "26", 
+                        "amount": "2.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "2M NaOH", 
+                  "description": "2M Sodium Hydroxide", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.55062167"
+                     }, 
+                     {
+                        "id": "9", 
+                        "amount": "0.2"
+                     }, 
+                     {
+                        "id": "2", 
+                        "amount": "0.2"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "2M HCl", 
+                  "description": "2 Molar Hydrochloric Acid", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.55062167"
+                     }, 
+                     {
+                        "id": "5", 
+                        "amount": "0.2"
+                     }, 
+                     {
+                        "id": "1", 
+                        "amount": "0.2"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "2M H<sub>2</sub>SO<sub>4</sub>", 
+                  "description": "2 Molar Sulfuric Acid", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.55062167"
+                     }, 
+                     {
+                        "id": "30", 
+                        "amount": "0.2"
+                     }, 
+                     {
+                        "id": "1", 
+                        "amount": "0.2"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "100 ml Distilled H<sub>2</sub>O", 
+                  "description": "100 ml Distilled Water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.55062167"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "sol.htm", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

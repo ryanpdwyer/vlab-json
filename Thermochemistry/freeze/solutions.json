@@ -1,0 +1,38 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Compound Y", 
+                  "description": "Compound Y", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "4", 
+                        "amount": "1.643"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "freeze.htm", 
+               "description": "Freeze Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

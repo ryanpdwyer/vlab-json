@@ -1,0 +1,99 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "Irydium Solutions", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M AgNO<sub>3</sub>", 
+                  "description": "1M Silver nitrate", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "amount": "0.1", 
+                        "id": "5"
+                     }, 
+                     {
+                        "amount": "0.1", 
+                        "id": "7"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.01M Na<sub>3</sub>AsO<sub>4</sub>", 
+                  "description": "0.01M Sodium arsenate ", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "amount": "0.003", 
+                        "id": "6"
+                     }, 
+                     {
+                        "amount": "0.001", 
+                        "id": "3"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Sample 1", 
+                  "description": "Sample 1", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "amount": "0.0024", 
+                        "id": "6"
+                     }, 
+                     {
+                        "amount": "0.0008", 
+                        "id": "3"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Sample 2", 
+                  "description": "Sample 2", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "amount": "0.0015", 
+                        "id": "6"
+                     }, 
+                     {
+                        "amount": "0.0005", 
+                        "id": "3"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "problem.htmL", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

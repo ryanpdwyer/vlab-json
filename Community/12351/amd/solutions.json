@@ -1,0 +1,74 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Mine Drainage Sample", 
+                  "description": "Mine Drainage Sample", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "30", 
+                        "amount": ".02523"
+                     }, 
+                     {
+                        "id": "29", 
+                        "amount": ".7248"
+                     }, 
+                     {
+                        "id": "1", 
+                        "amount": ".009897"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": ".2551"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "River Sample", 
+                  "description": "River Sample", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "38", 
+                        "amount": ".0013"
+                     }, 
+                     {
+                        "id": "39", 
+                        "amount": ".0008"
+                     }, 
+                     {
+                        "id": "27", 
+                        "amount": ".0008"
+                     }, 
+                     {
+                        "id": "8", 
+                        "amount": ".0039"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

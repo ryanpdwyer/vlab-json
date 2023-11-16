@@ -1,0 +1,50 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1 M Reagent X", 
+                  "description": "1 Molar Reagent X", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "212", 
+                        "amount": ".1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1 M Reagent Y", 
+                  "description": "1 Molar Reagent Y", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "213", 
+                        "amount": ".1"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

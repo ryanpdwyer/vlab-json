@@ -1,0 +1,48 @@
+{
+   "SPECIES_LIST": {
+      "SPECIES": [
+         {
+            "entropy": "69.91", 
+            "name": "H<sub>2</sub>O", 
+            "state": "l", 
+            "enthalpy": "-285.83", 
+            "density": "1.000", 
+            "molecularWeight": "18.01534", 
+            "unitActivity": "true", 
+            "id": "0"
+         }, 
+         {
+            "entropy": "0.0", 
+            "name": "H<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "id": "1"
+         }, 
+         {
+            "entropy": "-10.75", 
+            "name": "OH<sup>-</sup>", 
+            "enthalpy": "-229.99", 
+            "id": "2"
+         }, 
+         {
+            "entropy": "0", 
+            "name": "Compound A-Toxic", 
+            "state": "l", 
+            "enthalpy": "0", 
+            "molecularWeight": "180", 
+            "density": "1.26", 
+            "specificHeat": "0.2", 
+            "id": "3"
+         }, 
+         {
+            "entropy": "0", 
+            "name": "Compound A-Additive", 
+            "state": "l", 
+            "enthalpy": "0", 
+            "molecularWeight": "155", 
+            "density": "0.85", 
+            "specificHeat": "0.2", 
+            "id": "4"
+         }
+      ]
+   }
+}

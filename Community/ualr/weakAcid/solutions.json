@@ -1,0 +1,470 @@
+{
+  "FILESYSTEM": {
+    "DIRECTORY": [
+      {
+        "name": "stockroom",
+        "SOLUTION": [
+		{
+          "name": "H<sub>2</sub>O",
+          "description": "Distilled Water",
+          "volume": "0.1",
+          "species": { "id": "0" }
+        },
+		{
+			"name": "Phenolphthalein",
+			"description": "Phenolphthalein",
+			"volume": "0.1",
+		    "vessel": "100mLBottle",
+			"species": [
+			  { "id": "0" },
+			  {
+				"id": "47",
+				"amount": "0.00016"
+			  }
+			]
+		  },
+		 {
+			"name": "1M NaOH",
+			"description": "1M Sodium Hydroxide",
+			"volume": "0.1",
+			"species": [
+			  { "id": "0" },
+			  {
+				"id": "15",
+				"amount": "0.1"
+			  },
+			  {
+				"id": "2",
+				"amount": "0.1"
+			  }
+			]
+		  }],
+        "DIRECTORY": [
+          {
+            "name": "Weak Acids",
+            "SOLUTION": [
+              {
+				"name": "1M HClO<sub>2</sub>",
+				"description": "1M Chlorous Acid",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+					"id": "7",
+					"amount": "0.1"
+				  }
+				]
+			  },
+              {
+				"name": "1M HC<sub>2</sub>H<sub>2</sub>O<sub>2</sub>Cl",
+				"description": "1M Chloroacetic Acid",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+					"id": "13",
+					"amount": "0.1"
+				  }
+				]
+			  },
+              {
+				"name": "1M HF",
+				"description": "1M Hydrofloric Acid",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+					"id": "16",
+					"amount": "0.1"
+				  }
+				]
+			  },
+              {
+				"name": "1M HC<sub>4</sub>H<sub>7</sub>O<sub>2</sub>",
+				"description": "1M Butanoic Acid",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+					"id": "5",
+					"amount": "0.1"
+				  }
+				]
+			  },
+              {
+				"name": "1M HC<sub>3</sub>H<sub>5</sub>O<sub>3</sub>",
+				"description": "1M Lactic Acid",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+					"id": "11",
+					"amount": "0.1"
+				  }
+				]
+			  },
+              {
+				"name": "1M HCNO",
+				"description": "1M Cyanic Acid",
+				"volume": "0.1",
+				"species": [
+				  { "id": "0" },
+				  {
+					"id": "9",
+					"amount": "0.1"
+				  }
+				]
+			  }
+            ]
+          },
+          {
+            "name": "Unknowns 1-14",
+            "SOLUTION": [
+              {
+                "name": "1M Unknown01",
+                "description": "1M Unknown Acid 1",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "16",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown02",
+                "description": "1M Unknown Acid 2",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "5",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown03",
+                "description": "1M Unknown Acid 3",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "7",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown04",
+                "description": "1M Unknown Acid 4",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "9",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown05",
+                "description": "1M Unknown Acid 5",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "11",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown06",
+                "description": "1M Unknown Acid 6",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "13",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown07",
+                "description": "1M Unknown Acid 7",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "16",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown08",
+                "description": "1M Unknown Acid 8",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "5",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown09",
+                "description": "1M Unknown Acid 9",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "7",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown10",
+                "description": "1M Unknown Acid 10",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "9",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown11",
+                "description": "1M Unknown Acid 11",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "11",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown12",
+                "description": "1M Unknown Acid 12",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "13",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown13",
+                "description": "1M Unknown Acid 13",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "16",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown14",
+                "description": "1M Unknown Acid 14",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "5",
+                    "amount": "0.1"
+                  }
+                ]
+              }
+            ]
+          },
+		  {
+            "name": "Unknowns 15-28",
+            "SOLUTION": [
+              {
+                "name": "1M Unknown15",
+                "description": "1M Unknown Acid 15",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "7",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown16",
+                "description": "1M Unknown Acid 16",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "9",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown17",
+                "description": "1M Unknown Acid 17",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "11",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown18",
+                "description": "1M Unknown Acid 18",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "13",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown19",
+                "description": "1M Unknown Acid 19",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "16",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown20",
+                "description": "1M Unknown Acid 20",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "5",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown21",
+                "description": "1M Unknown Acid 21",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "7",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown22",
+                "description": "1M Unknown Acid 22",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "9",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown23",
+                "description": "1M Unknown Acid 23",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "11",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown24",
+                "description": "1M Unknown Acid 24",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "13",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown25",
+                "description": "1M Unknown Acid 25",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "16",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown26",
+                "description": "1M Unknown Acid 26",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "5",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown27",
+                "description": "1M Unknown Acid 27",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "7",
+                    "amount": "0.1"
+                  }
+                ]
+              },
+			  {
+                "name": "1M Unknown28",
+                "description": "1M Unknown Acid 28",
+                "volume": "0.1",
+                "species": [
+                  { "id": "0" },
+                  {
+                    "id": "9",
+                    "amount": "0.1"
+                  }
+                ]
+              }
+            ]
+          }
+		]
+	   }
+    ]
+  }
+}

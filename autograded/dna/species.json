@@ -1,0 +1,49 @@
+{
+   "SPECIES_LIST": {
+      "SPECIES": [
+         {
+            "id": "0", 
+            "name": "H<sub>2</sub>O", 
+            "enthalpy": "-285.83", 
+            "entropy": "69.91", 
+            "state": "l", 
+            "molecularWeight": "18.016"
+         }, 
+         {
+            "id": "1", 
+            "name": "H<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0", 
+            "molecularWeight": "1.008"
+         }, 
+         {
+            "id": "2", 
+            "name": "OH<sup>-</sup>", 
+            "enthalpy": "-229.99", 
+            "entropy": "-10.75", 
+            "molecularWeight": "17.008"
+         }, 
+         {
+            "id": "3", 
+            "name": "ACAC", 
+            "enthalpy": "-1.0", 
+            "entropy": "45.0", 
+            "molecularWeight": "87.008"
+         }, 
+         {
+            "id": "4", 
+            "name": "TG", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0", 
+            "molecularWeight": "37.008"
+         }, 
+         {
+            "id": "5", 
+            "name": "ACAC(TG)<sub>2</sub>", 
+            "enthalpy": "15.0", 
+            "entropy": "1940000000.388", 
+            "molecularWeight": "161.024"
+         }
+      ]
+   }
+}

@@ -1,0 +1,97 @@
+{
+  "SPECIES_LIST": {
+    "SPECIES": [
+      {
+        "entropy": "69.91",
+        "name": "H<sub>2</sub>O",
+        "state": "l",
+        "enthalpy": "-285.83",
+        "molecularWeight": "18.016",
+        "id": "0"
+      },
+      {
+        "entropy": "0.0",
+        "name": "H<sup>+</sup>",
+        "enthalpy": "0.0",
+        "molecularWeight": "1.008",
+        "id": "1"
+      },
+      {
+        "entropy": "-10.75",
+        "name": "OH<sup>-</sup>",
+        "enthalpy": "-229.99",
+        "molecularWeight": "17.008",
+        "id": "2"
+      },
+      {
+        "entropy": "113.4",
+        "name": "C<sub>6</sub>H<sub>5</sub>NH<sub>3</sub><sup>+</sup>",
+        "enthalpy": "-132.51",
+        "id": "3"
+      },
+      {
+        "entropy": "99.2170299726446",
+        "name": "C<sub>6</sub>H<sub>5</sub>NH<sub>2</sub>",
+        "enthalpy": "-110.29",
+        "id": "4"
+      },
+      {
+        "entropy": "113.4",
+        "name": "HONH<sub>3</sub><sup>+</sup>",
+        "enthalpy": "-132.51",
+        "id": "5"
+      },
+      {
+        "entropy": "72.26375555364159",
+        "name": "HONH<sub>2</sub>",
+        "enthalpy": "-110.29",
+        "id": "6"
+      },
+      {
+        "entropy": "113.4",
+        "name": "H<sub>2</sub>NNH<sub>3</sub><sup>+</sup>",
+        "enthalpy": "-132.51",
+        "id": "7"
+      },
+      {
+        "entropy": "32.58338589841654",
+        "name": "H<sub>2</sub>NNH<sub>2</sub>",
+        "enthalpy": "-110.29",
+        "id": "8"
+      },
+      {
+        "entropy": "113.4",
+        "name": "C<sub>2</sub>H<sub>5</sub>NH<sub>3</sub><sup>+</sup>",
+        "enthalpy": "-132.51",
+        "id": "9"
+      },
+      {
+        "entropy": "-19.117821866531617",
+        "name": "C<sub>2</sub>H<sub>5</sub>NH<sub>2</sub>",
+        "enthalpy": "-110.29",
+        "id": "10"
+      },
+      {
+        "entropy": "56.5",
+        "name": "Cl<sup>-</sup>",
+        "enthalpy": "-167.16",
+        "molecularWeight": "35.45",
+        "id": "11"
+      },
+      {
+        "entropy": "92.0",
+        "name": "C<sub>5</sub>H<sub>5</sub>NH<sup>+</sup>",
+        "enthalpy": "31.3",
+        "molecularWeight": "80.108",
+        "id": "12"
+      },
+      {
+        "entropy": "85.88064574580255",
+        "name": "C<sub>5</sub>H<sub>5</sub>N",
+        "enthalpy": "59.5",
+        "molecularWeight": "79.1",
+        "id": "13"
+      }
+    ]
+  }
+}

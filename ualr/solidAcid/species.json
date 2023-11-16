@@ -1,0 +1,161 @@
+{
+  "SPECIES_LIST": {
+    "SPECIES": [
+      {
+        "id": "0",
+        "name": "H<sub>2</sub>O",
+        "enthalpy": "-285.83",
+        "entropy": "69.91",
+        "state": "l",
+        "molecularWeight": "18.016"
+      },
+      {
+        "id": "1",
+        "name": "H<sup>+</sup>",
+        "enthalpy": "0.0",
+        "entropy": "0.0",
+        "molecularWeight": "1.008"
+      },
+      {
+        "id": "2",
+        "name": "OH<sup>-</sup>",
+        "enthalpy": "-229.99",
+        "entropy": "-10.75",
+        "molecularWeight": "17.008"
+      },
+      {
+        "id": "3",
+        "name": "KHP",
+        "enthalpy": "-122.14",
+        "entropy": "-33.5",
+        "state": "s",
+        "hue": "180",
+        "saturation": "0",
+        "value": "90",
+        "colorConcentration": ".03",
+        "molecularWeight": "204.23",
+        "density": "1"
+      },
+      {
+        "id": "4",
+        "name": "KHP",
+        "enthalpy": "-120.50362652212289",
+        "entropy": "-26.358229008379595",
+        "molecularWeight": "204.23"
+      },
+      {
+        "id": "5",
+        "name": "C<sub>6</sub>H<sub>5</sub>COOH",
+        "enthalpy": "-122.14",
+        "entropy": "-33.5",
+        "state": "s",
+        "hue": "180",
+        "saturation": "0",
+        "value": "90",
+        "colorConcentration": ".03",
+        "molecularWeight": "122.12",
+        "density": "1"
+      },
+      {
+        "id": "6",
+        "name": "C<sub>6</sub>H<sub>5</sub>COOH",
+        "enthalpy": "-86.0709563110438",
+        "entropy": "59.50304899446925",
+        "molecularWeight": "122.12"
+      },
+      {
+        "id": "7",
+        "name": "BrCH<sub>2</sub>COOH",
+        "enthalpy": "-122.14",
+        "entropy": "-33.5",
+        "state": "s",
+        "hue": "180",
+        "saturation": "0",
+        "value": "90",
+        "colorConcentration": ".03",
+        "molecularWeight": "138.95",
+        "density": "1"
+      },
+      {
+        "id": "8",
+        "name": "BrCH<sub>2</sub>COOH",
+        "enthalpy": "-120.50362652212289",
+        "entropy": "-26.358229008379595",
+        "molecularWeight": "138.95"
+      },
+      {
+        "id": "9",
+        "name": "HCOCOOH",
+        "enthalpy": "-122.14",
+        "entropy": "-33.5",
+        "state": "s",
+        "hue": "75",
+        "saturation": "0",
+        "value": "90",
+        "colorConcentration": ".03",
+        "molecularWeight": "74.04",
+        "density": "1"
+      },
+      {
+        "id": "10",
+        "name": "HCOCOOH",
+        "enthalpy": "-121.50300326941628",
+        "entropy": "-28.86827986181015",
+        "molecularWeight": "74.04"
+      },
+      {
+        "id": "11",
+        "name": "KHP<sup>-</sup>",
+        "enthalpy": "-127.4",
+        "entropy": "-153.0626182384508",
+        "molecularWeight": "203.23"
+      },
+      {
+        "id": "12",
+        "name": "C<sub>6</sub>H<sub>5</sub>COO<sup>-</sup>",
+        "enthalpy": "-127.4",
+        "entropy": "-159.56274559926746",
+        "molecularWeight": "121.12"
+      },
+      {
+        "id": "13",
+        "name": "BrCH<sub>2</sub>COO<sup>-</sup>",
+        "enthalpy": "-127.4",
+        "entropy": "-105.06805004868663",
+        "molecularWeight": "138.95"
+      },
+      {
+        "id": "14",
+        "name": "HCOCOOaq<sup>-</sup>",
+        "enthalpy": "-127.4",
+        "entropy": "-114.8102607084606",
+        "molecularWeight": "73.04"
+      },
+      {
+        "id": "15",
+        "name": "Na<sup>+</sup>",
+        "enthalpy": "-240.12",
+        "entropy": "59.0",
+        "molecularWeight": "22.99"
+      },
+      {
+        "id": "47",
+        "name": "PhenolphthaleinH",
+        "enthalpy": "-229.99",
+        "entropy": "144.0",
+        "molecularWeight": "318.33"
+      },
+      {
+        "id": "48",
+        "name": "Phenolphthalein<sup>-</sup>",
+        "enthalpy": "-232.99",
+        "entropy": "-58.14250539834609",
+        "hue": "327",
+        "saturation": "90",
+        "value": "76",
+        "colorConcentration": ".0000000015",
+        "molecularWeight": "318.33"
+      }
+    ]
+  }
+}

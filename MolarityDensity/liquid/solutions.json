@@ -1,0 +1,38 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "Irydium Solutions", 
+            "SOLUTION": [
+               {
+                  "name": "Compound A-1", 
+                  "description": "Bottle 1 of Compound A", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "amount": "0.968", 
+                        "id": "3"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Compound A-2", 
+                  "description": "Bottle 2 of Compound A", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "amount": "0.8966", 
+                        "id": "4"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "problem.htmL", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

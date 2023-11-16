@@ -1,0 +1,149 @@
+{
+  "FILESYSTEM": {
+    "DIRECTORY": [{
+      "name": "stockroom",
+      "SOLUTION": [
+	    {
+        "name": "Distilled H<sub>2</sub>O",
+        "description": "Distilled Water",
+        "volume": "3.0",
+        "vessel": "3LCarboy",
+        "species": [{ "id": "0" }]
+           },
+		   {
+				  "name": "4M NaCl",
+				  "description": "4M Sodium Chloride",
+				  "volume": "0.1",
+              "species": [
+                { "id": "0" },
+                {
+				  "id": "8",
+				  "amount": "0.4"
+				},
+				{
+				  "id": "7",
+				  "amount": "0.4"
+                }
+              ]
+            },
+            {
+				  "name": "2M K<sub>2</sub>CrO<sub>4</sub>",
+				  "description": "2M Potassium Chromate",
+				  "volume": "0.1",
+				"species": [
+                { "id": "0" },
+                {
+				  "id": "57",
+				  "amount": "0.2"
+                },
+                {
+				  "id": "8",
+				  "amount": "0.4"
+                }
+              ]
+            },
+            {
+				  "name": "Unknown A",
+				  "description": "Unknown A Lead Acetate",
+				  "volume": "0.1",
+
+              "species": [
+                { "id": "0" },
+                {
+				  "id": "66",
+				  "amount": "0.03"
+				},
+				{
+				  "id": "23",
+				  "amount": "0.06"
+                }
+              ]
+            },
+			{
+				  "name": "Unknown B",
+				  "description": "Unknown B Lead Acetate",
+				  "volume": "0.1",
+
+              "species": [
+                { "id": "0" },
+                {
+				  "id": "66",
+				  "amount": "0.12"
+				},
+				{
+				  "id": "23",
+				  "amount": "0.24"
+                }
+              ]
+            },
+			{
+				  "name": "Unknown C",
+				  "description": "Unknown C Lead Acetate",
+				  "volume": "0.1",
+
+              "species": [
+                { "id": "0" },
+                {
+				  "id": "66",
+				  "amount": "0.15"
+				},
+				{
+				  "id": "23",
+				  "amount": "0.3"
+                }
+              ]
+            },
+			{
+				  "name": "Unknown D",
+				  "description": "Unknown D Lead Acetate",
+				  "volume": "0.1",
+
+              "species": [
+                { "id": "0" },
+                {
+				  "id": "66",
+				  "amount": "0.09"
+				},
+				{
+				  "id": "23",
+				  "amount": "0.18"
+                }
+              ]
+            },
+			{
+				  "name": "Unknown E",
+				  "description": "Unknown E Lead Acetate",
+				  "volume": "0.1",
+
+              "species": [
+                { "id": "0" },
+                {
+				  "id": "66",
+				  "amount": "0.06"
+				},
+				{
+				  "id": "23",
+				  "amount": "0.12"
+                }
+              ]
+            },
+			{
+				  "name": "Unknown F",
+				  "description": "Unknown F Lead Acetate",
+				  "volume": "0.1",
+
+              "species": [
+                { "id": "0" },
+                {
+				  "id": "66",
+				  "amount": "0.18"
+				},
+				{
+				  "id": "23",
+				  "amount": "0.36"
+                }
+              ]
+            }]
+    }]
+  }
+}

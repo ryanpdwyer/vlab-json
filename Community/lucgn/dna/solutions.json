@@ -1,0 +1,96 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1M dAMP", 
+                  "description": "0.1M soluble form of (A)denine.", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "101", 
+                        "amount": "0.01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1M dCMP", 
+                  "description": "0.1M soluble form of (C)ytosine.", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "102", 
+                        "amount": "0.01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1M dTMP", 
+                  "description": "0.1M soluble form of (T)hymine.", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "104", 
+                        "amount": "0.01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1M dGMP", 
+                  "description": "0.1M soluble form of (G)uanine.", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "103", 
+                        "amount": "0.01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1M Unknown", 
+                  "description": "0.1M solution of an unkown nucleobase", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "111", 
+                        "amount": "0.01"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "dnabind.htm", 
+               "description": "DNA Handout", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

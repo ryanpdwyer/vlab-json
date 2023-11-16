@@ -1,0 +1,61 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.525"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NaCl", 
+                  "description": "Sodium Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "14", 
+                        "amount": "2.6"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "MgCl<sub>2</sub>", 
+                  "description": "Magnesium Chloride",  
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "16", 
+                        "amount": "2.4"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Na<sub>2</sub>SO<sub>4</sub> <sup>.</sup> 10H<sub>2</sub>O", 
+                  "description": "Sodium Sulfate Decahydrate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "19", 
+                        "amount": "0.5"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "sol.htm", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

@@ -1,0 +1,96 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "5.8 x 10<sup>-4</sup>M AgNO<sub>3</sub>", 
+                  "description": "Silver Nitrate", 
+                  "volume": "0.1", 				  
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "4", 
+                        "amount": "0.000058"
+                     }, 
+                     {
+                        "id": "24", 
+                        "amount": "0.000058"
+                     }
+                  ]
+               },
+				{
+                  "name": "Na<sub>2</sub>CO<sub>3</sub>", 
+                  "description": "Sodium Carbonate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "23", 
+                        "amount": "0.6"
+                     }
+                  ]
+               }, 
+			   {
+                  "name": "5.8 x 10<sup>–4</sup>M AgNO<sub>3</sub> Open System", 
+                  "description": "Silver Nitrate Open System", 
+                  "volume": "0.1", 				  
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "4", 
+                        "amount": "0.000058"
+                     }, 
+                     {
+                        "id": "24", 
+                        "amount": "0.000058"
+                     },
+                     {
+                        "id": "26", 
+                        "amount": "0.00000135"
+                     }
+					 
+                  ]
+               },
+{
+		  "name": "0.1M NaOH",
+		  "description": "0.1M Sodium Hydroxide",
+		  "volume": "0.1",
+		  "species": [
+			{ "id": "0" },
+			{
+			  "id": "22",
+			  "amount": "0.01"
+			},
+			{
+			  "id": "2",
+			  "amount": "0.01"
+			}
+		  ]
+		}
+
+            ], 
+            "FILE": {
+               "href": "sol2.htm", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

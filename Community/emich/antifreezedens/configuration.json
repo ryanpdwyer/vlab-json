@@ -1,0 +1,37 @@
+{
+  "title": "Density of Antifreeze",
+  "solutionModellers": {
+    "waterConcentration": "waterFinite",
+    "liquidVolume": "evaluated"
+  },
+  "solutionViewers": [
+    {
+      "id": "solutionProperties",
+      "displayDefault": true,
+      "args": {
+        "honorSignificantFigures": true
+      }
+    },
+    {
+      "id": "spectrometer",
+      "displayDefault": false
+    },
+    {
+      "id": "particleView",
+      "displayDefault": false
+    },
+    {
+      "id": "thermometer",
+      "displayDefault": true
+    },
+    {
+      "id": "pH",
+      "displayDefault": true
+    },
+    {
+      "id": "vesselTrackingControl",
+      "displayDefault": false
+    }
+  ],
+  "transfer": [ "significantFigures", "realistic"]
+}

@@ -1,0 +1,759 @@
+{
+  "SPECIES_LIST": {
+    "SPECIES": [
+      {
+        "entropy": "69.91",
+        "name": "H<sub>2</sub>O",
+        "state": "l",
+        "enthalpy": "-285.83",
+        "id": "0"
+      },
+      {
+        "entropy": "0.0",
+        "name": "H<sup>+</sup>",
+        "enthalpy": "0.0",
+        "id": "1"
+      },
+      {
+        "entropy": "-10.75",
+        "name": "OH<sup>-</sup>",
+        "enthalpy": "-229.99",
+        "id": "2"
+      },
+      {
+        "density": "5.56",
+        "entropy": "96.2",
+        "name": "AgCl",
+        "state": "s",
+        "enthalpy": "-172.1",
+        "molecularWeight": "143.3212",
+        "id": "3"
+      },
+      {
+        "entropy": "222.30949695705655",
+        "name": "Ag<sup>+</sup>",
+        "enthalpy": "105.6",
+        "id": "4"
+      },
+      {
+        "entropy": "56.5",
+        "name": "Cl<sup>-</sup>",
+        "enthalpy": "-167.58999999999997",
+        "id": "5"
+      },
+      {
+        "density": "6.6",
+        "entropy": "96.2",
+        "name": "PbCO<sub>3</sub>",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "267.2",
+        "id": "6"
+      },
+      {
+        "entropy": "18.0",
+        "name": "Pb<sup>+2</sup>",
+        "enthalpy": "1.0",
+        "id": "7"
+      },
+      {
+        "entropy": "-1522.223992598455",
+        "name": "CO<sub>3</sub><sup>-2</sup>",
+        "enthalpy": "-677.0",
+        "id": "8"
+      },
+      {
+        "density": "5.85",
+        "entropy": "433.6362649332013",
+        "name": "PbCl<sub>2</sub>",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "278.106",
+        "id": "9"
+      },
+      {
+        "density": "3.2",
+        "entropy": "96.2",
+        "name": "AlOH<sub>3</sub>",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "78.0",
+        "id": "10"
+      },
+      {
+        "entropy": "-3674.56377700301",
+        "name": "Al<sup>+3</sup>",
+        "enthalpy": "-531.3999999999999",
+        "id": "11"
+      },
+      {
+        "state": "s",
+        "name": "Ag<sub>2</sub>CO<sub>3</sub>",
+        "id": "12",
+        "colorConcentration": "0.2",
+        "enthalpy": "-272.1",
+        "molecularWeight": "275.75",
+        "saturation": "70",
+        "hue": "60",
+        "entropy": "-215.93816212655133",
+        "value": "100",
+        "density": "6.077"
+      },
+      {
+        "density": "4.45",
+        "entropy": "497.7844347584604",
+        "name": "Ag<sub>2</sub>SO<sub>4</sub>",
+        "state": "s",
+        "enthalpy": "-715.9",
+        "molecularWeight": "311.87",
+        "id": "13"
+      },
+      {
+        "entropy": "20.1",
+        "name": "SO<sub>4</sub><sup>-2</sup>",
+        "enthalpy": "-909.27",
+        "id": "14"
+      },
+      {
+        "density": "2.3",
+        "entropy": "236.0",
+        "name": "Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>",
+        "state": "s",
+        "enthalpy": "-4137.599999999999",
+        "molecularWeight": "308.24",
+        "id": "15"
+      },
+      {
+        "entropy": "-55.2",
+        "name": "Ca<sup>+2</sup>",
+        "enthalpy": "-543.0",
+        "id": "16"
+      },
+      {
+        "entropy": "-189.54347645134808",
+        "name": "PO<sub>4</sub><sup>-3</sup>",
+        "enthalpy": "-1277.4",
+        "id": "17"
+      },
+      {
+        "density": "3.96",
+        "entropy": "96.2",
+        "name": "SrSO<sub>4</sub>",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "183.69",
+        "id": "18"
+      },
+      {
+        "entropy": "-4019.4646158625164",
+        "name": "Sr<sup>+2</sup>",
+        "enthalpy": "-547.0",
+        "id": "19"
+      },
+      {
+        "density": "5.045",
+        "entropy": "236.0",
+        "name": "Sr(IO<sub>3</sub>)<sub>2</sub>",
+        "state": "s",
+        "enthalpy": "-413.6",
+        "molecularWeight": "437.42",
+        "id": "20"
+      },
+      {
+        "entropy": "1099.856087539829",
+        "name": "IO<sub>3</sub><sup>-</sup>",
+        "enthalpy": "-221.3",
+        "id": "21"
+      },
+      {
+        "entropy": "-138.1",
+        "name": "Mg<sup>+2</sup>",
+        "enthalpy": "-466.85",
+        "molecularWeight": "24.305",
+        "id": "22"
+      },
+      {
+        "density": "2.36",
+        "entropy": "63.480304810939856",
+        "name": "Mg(OH)<sub>2</sub>",
+        "state": "s",
+        "enthalpy": "-924.54",
+        "molecularWeight": "58.32",
+        "id": "23"
+      },
+      {
+        "entropy": "18.0",
+        "name": "cation2<sup>+2</sup>",
+        "enthalpy": "1.0",
+        "id": "24"
+      },
+      {
+        "entropy": "96.2",
+        "name": "Unknown2",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "78.0",
+        "id": "25"
+      },
+      {
+        "entropy": "-1522.223992598455",
+        "name": "anion2<sup>-2</sup>",
+        "enthalpy": "-677.0",
+        "molecularWeight": "1.0",
+        "id": "26"
+      },
+      {
+        "entropy": "236.0",
+        "name": "Unknown3",
+        "state": "s",
+        "enthalpy": "-4137.599999999999",
+        "molecularWeight": "308.24",
+        "id": "27"
+      },
+      {
+        "entropy": "-55.2",
+        "name": "cation3<sup>+2</sup>",
+        "enthalpy": "-543.0",
+        "id": "28"
+      },
+      {
+        "entropy": "-189.54347645134808",
+        "name": "anion3<sup>-3</sup>",
+        "enthalpy": "-1277.4",
+        "id": "29"
+      },
+      {
+        "entropy": "497.7844347584604",
+        "name": "Unknown1",
+        "state": "s",
+        "enthalpy": "-715.9",
+        "molecularWeight": "311.87",
+        "id": "30"
+      },
+      {
+        "entropy": "222.30949695705655",
+        "name": "cation1<sup>+</sup>",
+        "enthalpy": "105.6",
+        "id": "31"
+      },
+      {
+        "entropy": "20.1",
+        "name": "anion1<sup>-2</sup>",
+        "enthalpy": "-909.27",
+        "id": "32"
+      },
+      {
+        "entropy": "56.5",
+        "name": "anion4<sup>-</sup>",
+        "enthalpy": "-167.58999999999997",
+        "id": "33"
+      },
+      {
+        "entropy": "18.0",
+        "name": "cation4<sup>+2</sup>",
+        "enthalpy": "1.0",
+        "id": "34"
+      },
+      {
+        "entropy": "433.6362649332013",
+        "name": "Unknown4",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "278.106",
+        "id": "35"
+      },
+      {
+        "entropy": "1099.856087539829",
+        "name": "anion5<sup>-</sup>",
+        "enthalpy": "-221.3",
+        "id": "36"
+      },
+      {
+        "entropy": "-4019.4646158625164",
+        "name": "cation5<sup>+2</sup>",
+        "enthalpy": "-547.0",
+        "id": "37"
+      },
+      {
+        "entropy": "236.0",
+        "name": "Unknown5",
+        "state": "s",
+        "enthalpy": "-413.6",
+        "molecularWeight": "437.42",
+        "id": "38"
+      },
+      {
+        "entropy": "-138.1",
+        "name": "cation6<sup>+2</sup>",
+        "enthalpy": "-466.85",
+        "molecularWeight": "24.305",
+        "id": "39"
+      },
+      {
+        "entropy": "63.480304810939856",
+        "name": "Unknown6",
+        "state": "s",
+        "enthalpy": "-924.54",
+        "molecularWeight": "58.32",
+        "id": "40"
+      },
+      {
+        "entropy": "-10.75",
+        "name": "anion6<sup>-</sup>",
+        "enthalpy": "-229.99",
+        "molecularWeight": "1.0",
+        "id": "41"
+      },
+      {
+        "entropy": "18.0",
+        "name": "cation8<sup>+2</sup>",
+        "enthalpy": "1.0",
+        "id": "42"
+      },
+      {
+        "entropy": "96.2",
+        "name": "Unknown8",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "78.0",
+        "id": "43"
+      },
+      {
+        "entropy": "-1522.223992598455",
+        "name": "anion8<sup>-2</sup>",
+        "enthalpy": "-677.0",
+        "molecularWeight": "1.0",
+        "id": "44"
+      },
+      {
+        "entropy": "236.0",
+        "name": "Unknown9",
+        "state": "s",
+        "enthalpy": "-4137.599999999999",
+        "molecularWeight": "308.24",
+        "id": "45"
+      },
+      {
+        "entropy": "-55.2",
+        "name": "cation9<sup>+2</sup>",
+        "enthalpy": "-543.0",
+        "id": "46"
+      },
+      {
+        "entropy": "-189.54347645134808",
+        "name": "anion9<sup>-3</sup>",
+        "enthalpy": "-1277.4",
+        "id": "47"
+      },
+      {
+        "entropy": "497.7844347584604",
+        "name": "Unknown7",
+        "state": "s",
+        "enthalpy": "-715.9",
+        "molecularWeight": "311.87",
+        "id": "48"
+      },
+      {
+        "entropy": "222.30949695705655",
+        "name": "cation7<sup>+</sup>",
+        "enthalpy": "105.6",
+        "id": "49"
+      },
+      {
+        "entropy": "20.1",
+        "name": "anion7<sup>-2</sup>",
+        "enthalpy": "-909.27",
+        "id": "50"
+      },
+      {
+        "entropy": "56.5",
+        "name": "anion10<sup>-</sup>",
+        "enthalpy": "-167.58999999999997",
+        "id": "51"
+      },
+      {
+        "entropy": "18.0",
+        "name": "cation10<sup>+2</sup>",
+        "enthalpy": "1.0",
+        "id": "52"
+      },
+      {
+        "entropy": "433.6362649332013",
+        "name": "Unknown10",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "278.106",
+        "id": "53"
+      },
+      {
+        "entropy": "1099.856087539829",
+        "name": "anion11<sup>-</sup>",
+        "enthalpy": "-221.3",
+        "id": "54"
+      },
+      {
+        "entropy": "-4019.4646158625164",
+        "name": "cation11<sup>+2</sup>",
+        "enthalpy": "-547.0",
+        "id": "55"
+      },
+      {
+        "entropy": "236.0",
+        "name": "Unknown11",
+        "state": "s",
+        "enthalpy": "-413.6",
+        "molecularWeight": "437.42",
+        "id": "56"
+      },
+      {
+        "entropy": "-138.1",
+        "name": "cation12<sup>+2</sup>",
+        "enthalpy": "-466.85",
+        "molecularWeight": "24.305",
+        "id": "57"
+      },
+      {
+        "entropy": "63.480304810939856",
+        "name": "Unknown12",
+        "state": "s",
+        "enthalpy": "-924.54",
+        "molecularWeight": "58.32",
+        "id": "58"
+      },
+      {
+        "entropy": "-10.75",
+        "name": "anion12<sup>-</sup>",
+        "enthalpy": "-229.99",
+        "molecularWeight": "1.0",
+        "id": "59"
+      },
+      {
+        "entropy": "497.7844347584604",
+        "name": "Unknown13",
+        "state": "s",
+        "enthalpy": "-715.9",
+        "molecularWeight": "311.87",
+        "id": "60"
+      },
+      {
+        "entropy": "222.30949695705655",
+        "name": "cation13<sup>+</sup>",
+        "enthalpy": "105.6",
+        "id": "61"
+      },
+      {
+        "entropy": "20.1",
+        "name": "anion13<sup>-2</sup>",
+        "enthalpy": "-909.27",
+        "id": "62"
+      },
+      {
+        "entropy": "18.0",
+        "name": "cation14<sup>+2</sup>",
+        "enthalpy": "1.0",
+        "id": "63"
+      },
+      {
+        "entropy": "96.2",
+        "name": "Unknown14",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "78.0",
+        "id": "64"
+      },
+      {
+        "entropy": "-1522.223992598455",
+        "name": "anion14<sup>-2</sup>",
+        "enthalpy": "-677.0",
+        "molecularWeight": "1.0",
+        "id": "65"
+      },
+      {
+        "entropy": "236.0",
+        "name": "Unknown15",
+        "state": "s",
+        "enthalpy": "-4137.599999999999",
+        "molecularWeight": "308.24",
+        "id": "66"
+      },
+      {
+        "entropy": "-55.2",
+        "name": "cation15<sup>+2</sup>",
+        "enthalpy": "-543.0",
+        "id": "67"
+      },
+      {
+        "entropy": "-189.54347645134808",
+        "name": "anion15<sup>-3</sup>",
+        "enthalpy": "-1277.4",
+        "id": "68"
+      },
+      {
+        "entropy": "56.5",
+        "name": "anion16<sup>-</sup>",
+        "enthalpy": "-167.58999999999997",
+        "id": "69"
+      },
+      {
+        "entropy": "18.0",
+        "name": "cation16<sup>+2</sup>",
+        "enthalpy": "1.0",
+        "id": "70"
+      },
+      {
+        "entropy": "433.6362649332013",
+        "name": "Unknown16",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "278.106",
+        "id": "71"
+      },
+      {
+        "entropy": "1099.856087539829",
+        "name": "anion17<sup>-</sup>",
+        "enthalpy": "-221.3",
+        "id": "72"
+      },
+      {
+        "entropy": "-4019.4646158625164",
+        "name": "cation17<sup>+2</sup>",
+        "enthalpy": "-547.0",
+        "id": "73"
+      },
+      {
+        "entropy": "236.0",
+        "name": "Unknown17",
+        "state": "s",
+        "enthalpy": "-413.6",
+        "molecularWeight": "437.42",
+        "id": "74"
+      },
+      {
+        "entropy": "-138.1",
+        "name": "cation18<sup>+2</sup>",
+        "enthalpy": "-466.85",
+        "molecularWeight": "24.305",
+        "id": "75"
+      },
+      {
+        "entropy": "63.480304810939856",
+        "name": "Unknown18",
+        "state": "s",
+        "enthalpy": "-924.54",
+        "molecularWeight": "58.32",
+        "id": "76"
+      },
+      {
+        "entropy": "-10.75",
+        "name": "anion18<sup>-</sup>",
+        "enthalpy": "-229.99",
+        "molecularWeight": "1.0",
+        "id": "77"
+      },
+      {
+        "entropy": "497.7844347584604",
+        "name": "Unknown19",
+        "state": "s",
+        "enthalpy": "-715.9",
+        "molecularWeight": "311.87",
+        "id": "78"
+      },
+      {
+        "entropy": "222.30949695705655",
+        "name": "cation19<sup>+</sup>",
+        "enthalpy": "105.6",
+        "id": "79"
+      },
+      {
+        "entropy": "20.1",
+        "name": "anion19<sup>-2</sup>",
+        "enthalpy": "-909.27",
+        "id": "80"
+      },
+      {
+        "entropy": "18.0",
+        "name": "cation20<sup>+2</sup>",
+        "enthalpy": "1.0",
+        "id": "81"
+      },
+      {
+        "entropy": "96.2",
+        "name": "Unknown20",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "78.0",
+        "id": "82"
+      },
+      {
+        "entropy": "-1522.223992598455",
+        "name": "anion20<sup>-2</sup>",
+        "enthalpy": "-677.0",
+        "molecularWeight": "1.0",
+        "id": "83"
+      },
+      {
+        "entropy": "236.0",
+        "name": "Unknown21",
+        "state": "s",
+        "enthalpy": "-4137.599999999999",
+        "molecularWeight": "308.24",
+        "id": "84"
+      },
+      {
+        "entropy": "-55.2",
+        "name": "cation21<sup>+2</sup>",
+        "enthalpy": "-543.0",
+        "id": "85"
+      },
+      {
+        "entropy": "-189.54347645134808",
+        "name": "anion21<sup>-3</sup>",
+        "enthalpy": "-1277.4",
+        "id": "86"
+      },
+      {
+        "entropy": "56.5",
+        "name": "anion22<sup>-</sup>",
+        "enthalpy": "-167.58999999999997",
+        "id": "87"
+      },
+      {
+        "entropy": "18.0",
+        "name": "cation22<sup>+2</sup>",
+        "enthalpy": "1.0",
+        "id": "88"
+      },
+      {
+        "entropy": "433.6362649332013",
+        "name": "Unknown22",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "278.106",
+        "id": "89"
+      },
+      {
+        "entropy": "1099.856087539829",
+        "name": "anion23<sup>-</sup>",
+        "enthalpy": "-221.3",
+        "id": "90"
+      },
+      {
+        "entropy": "-4019.4646158625164",
+        "name": "cation23<sup>+2</sup>",
+        "enthalpy": "-547.0",
+        "id": "91"
+      },
+      {
+        "entropy": "236.0",
+        "name": "Unknown23",
+        "state": "s",
+        "enthalpy": "-413.6",
+        "molecularWeight": "437.42",
+        "id": "92"
+      },
+      {
+        "entropy": "-138.1",
+        "name": "cation24<sup>+2</sup>",
+        "enthalpy": "-466.85",
+        "molecularWeight": "24.305",
+        "id": "93"
+      },
+      {
+        "entropy": "63.480304810939856",
+        "name": "Unknown24",
+        "state": "s",
+        "enthalpy": "-924.54",
+        "molecularWeight": "58.32",
+        "id": "94"
+      },
+      {
+        "entropy": "-10.75",
+        "name": "anion24<sup>-</sup>",
+        "enthalpy": "-229.99",
+        "molecularWeight": "1.0",
+        "id": "95"
+      },
+      {
+        "entropy": "497.7844347584604",
+        "name": "Unknown25",
+        "state": "s",
+        "enthalpy": "-715.9",
+        "molecularWeight": "311.87",
+        "id": "96"
+      },
+      {
+        "entropy": "222.30949695705655",
+        "name": "cation25<sup>+</sup>",
+        "enthalpy": "105.6",
+        "id": "97"
+      },
+      {
+        "entropy": "20.1",
+        "name": "anion25<sup>-2</sup>",
+        "enthalpy": "-909.27",
+        "id": "98"
+      },
+      {
+        "entropy": "18.0",
+        "name": "cation26<sup>+2</sup>",
+        "enthalpy": "1.0",
+        "id": "99"
+      },
+      {
+        "entropy": "96.2",
+        "name": "Unknown26",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "78.0",
+        "id": "100"
+      },
+      {
+        "entropy": "-1522.223992598455",
+        "name": "anion26<sup>-2</sup>",
+        "enthalpy": "-677.0",
+        "molecularWeight": "1.0",
+        "id": "101"
+      },
+      {
+        "entropy": "236.0",
+        "name": "Unknown27",
+        "state": "s",
+        "enthalpy": "-4137.599999999999",
+        "molecularWeight": "308.24",
+        "id": "102"
+      },
+      {
+        "entropy": "-55.2",
+        "name": "cation27<sup>+2</sup>",
+        "enthalpy": "-543.0",
+        "id": "103"
+      },
+      {
+        "entropy": "-189.54347645134808",
+        "name": "anion27<sup>-3</sup>",
+        "enthalpy": "-1277.4",
+        "id": "104"
+      },
+      {
+        "entropy": "56.5",
+        "name": "anion28<sup>-</sup>",
+        "enthalpy": "-167.58999999999997",
+        "id": "105"
+      },
+      {
+        "entropy": "18.0",
+        "name": "cation28<sup>+2</sup>",
+        "enthalpy": "1.0",
+        "id": "106"
+      },
+      {
+        "entropy": "433.6362649332013",
+        "name": "Unknown28",
+        "state": "s",
+        "enthalpy": "-272.1",
+        "molecularWeight": "278.106",
+        "id": "107"
+      }
+    ]
+  }
+}

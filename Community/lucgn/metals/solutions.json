@@ -1,0 +1,60 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "Irydium Solutions", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Metal 1", 
+                  "description": "Metal 1", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "amount": "1.568", 
+                        "id": "3"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Metal 2", 
+                  "description": "Metal 2", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "amount": "1.8966", 
+                        "id": "4"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Metal 3", 
+                  "description": "Metal 3", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "amount": "1.762", 
+                        "id": "5"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "problem.htmL", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

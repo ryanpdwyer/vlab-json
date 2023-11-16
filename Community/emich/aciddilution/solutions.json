@@ -1,0 +1,195 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M HCl", 
+                  "description": "1 Molar Hydrochloric Acid", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "7", 
+                        "amount": "0.1"
+                     }, 
+                     {
+                        "id": "1", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M NaOH", 
+                  "description": "1M Sodium Hydroxide", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "8", 
+                        "amount": "0.1"
+                     }, 
+                     {
+                        "id": "2", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M CH<sub>3</sub>COOH", 
+                  "description": "1 Molar Acetic Acid", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "22", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M H<sub>2</sub>SO<sub>4</sub>", 
+                  "description": "1 Molar Sulfuric Acid", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "29", 
+                        "amount": "0.1"
+                     }, 
+                     {
+                        "id": "1", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M NH<sub>3</sub>", 
+                  "description": "1 Molar Ammonia", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "33", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }
+            ], 
+            "DIRECTORY": [
+               {
+                  "name": "Indicators", 
+                  "SOLUTION": [
+                     {
+                        "name": "Methyl Orange", 
+                        "description": "Methyl Orange Indicator Solution", 
+                        "volume": "0.1", 
+						"vessel": "100mLBottle",
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "41", 
+                              "amount": ".0001"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Methyl Red", 
+                        "description": "Methyl Red Indicator Solution", 
+                        "volume": "0.1", 
+						"vessel": "100mLBottle",
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "43", 
+                              "amount": ".00015"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Phenolphthalein", 
+                        "description": "Phenolphthalein Indicator Solution", 
+                        "volume": "0.1", 
+						 "vessel": "100mLBottle",
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "47", 
+                              "amount": ".0007"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Bromocresol Green", 
+                        "description": "Bromocresol Green Indicator Solution", 
+                        "volume": "0.1", 
+					   "vessel": "100mLBottle",
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "8", 
+                              "amount": ".00018"
+                           }, 
+                           {
+                              "id": "50", 
+                              "amount": ".00018"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Methyl Purple", 
+                        "description": "Methyl Purple Indicator Solution", 
+                        "volume": "0.1", 
+              "vessel": "100mLBottle",
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "57", 
+                              "amount": ".0001"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "dilution2.htm", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

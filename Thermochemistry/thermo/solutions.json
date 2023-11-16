@@ -1,0 +1,105 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [ 
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "0.1 M Reagent A", 
+                  "description": "0.1 Molar Reagent A", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "212", 
+                        "amount": ".01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1 M Reagent A", 
+                  "description": "1 Molar Reagent A", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "212", 
+                        "amount": ".1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1 M Reagent B", 
+                  "description": "0.1 Molar Reagent B", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "213", 
+                        "amount": ".01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1 M Reagent B", 
+                  "description": "1 Molar Reagent B", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "213", 
+                        "amount": ".1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "3 M Reagent A", 
+                  "description": "3 Molar Reagent A", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "212", 
+                        "amount": ".3"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "3 M Reagent B", 
+                  "description": "3 Molar Reagent B", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "213", 
+                        "amount": ".3"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,154 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown 1", 
+                  "description": "Unknown 1", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "u1,int,1,42,u", 
+                        "amount": "u7,double,0.0,0.05,ue"
+                     }, 
+                     {
+                        "id": "u13,int,1,42,u", 
+                        "amount": "u7,double,0.0,0.05,ue"
+                     }, 
+                     {
+                        "id": "47", 
+                        "amount": "u19,double,0.0,0.05,ue"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown 2", 
+                  "description": "Unknown 2", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "u2,int,1,42,u", 
+                        "amount": "u8,double,0.0,0.05,ue"
+                     }, 
+                     {
+                        "id": "u14,int,1,42,u", 
+                        "amount": "u8,double,0.0,0.05,ue"
+                     }, 
+                     {
+                        "id": "47", 
+                        "amount": "u20,double,0.0,0.05,ue"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown 3", 
+                  "description": "Unknown 3", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "u3,int,1,42,u", 
+                        "amount": "u9,double,0.0,0.05,ue"
+                     }, 
+                     {
+                        "id": "u15,int,1,42,u", 
+                        "amount": "u9,double,0.0,0.05,ue"
+                     }, 
+                     {
+                        "id": "47", 
+                        "amount": "u21,double,0.0,0.05,ue"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown 4", 
+                  "description": "Unknown 4", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "u4,int,1,42,u", 
+                        "amount": "u10,double,0.0,0.05,ue"
+                     }, 
+                     {
+                        "id": "u16,int,1,42,u", 
+                        "amount": "u10,double,0.0,0.05,ue"
+                     }, 
+                     {
+                        "id": "47", 
+                        "amount": "u22,double,0.0,0.05,ue"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown 5", 
+                  "description": "Unknown 5", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "u5,int,1,42,u", 
+                        "amount": "u11,double,0.0,0.05,ue"
+                     }, 
+                     {
+                        "id": "u17,int,1,42,u", 
+                        "amount": "u11,double,0.0,0.05,ue"
+                     }, 
+                     {
+                        "id": "47", 
+                        "amount": "u23,double,0.0,0.05,ue"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Unknown 6", 
+                  "description": "Unknown 6", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "u6,int,1,42,u", 
+                        "amount": "u12,double,0.0,0.05,ue"
+                     }, 
+                     {
+                        "id": "u18,int,1,42,u", 
+                        "amount": "u12,double,0.0,0.05,ue"
+                     }, 
+                     {
+                        "id": "47", 
+                        "amount": "u24,double,0.0,0.05,ue"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

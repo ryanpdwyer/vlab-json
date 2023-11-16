@@ -1,0 +1,72 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "Irydium Solutions", 
+            "SOLUTION": [
+              {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.525"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NaCl", 
+                  "description": "Sodium Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "amount": "2.6", 
+                        "id": "14"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "MgCl<sub>2</sub>", 
+                  "description": "Magnesium Chloride", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "amount": "2.4", 
+                        "id": "16"
+                     }
+                  ]
+               },
+               {
+                  "name": "Na<sub>2</sub>SO<sub>4</sub> · 10H<sub>2</sub>O", 
+                  "description": "Sodium Sulfate Decahydrate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "amount": "0.5", 
+                        "id": "19"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "AgNO<sub>3</sub>", 
+                  "description": "Silver Nitrate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "amount": "2.1", 
+                        "id": "20"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "problem.htmL", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

@@ -1,0 +1,102 @@
+{
+  "REACTIONS": {
+    "REACTION": [
+      {
+        "SPECIES_REF": [
+          {
+            "coefficient": "1.0",
+            "id": "0"
+          },
+          {
+            "coefficient": "-1.0",
+            "id": "1"
+          },
+          {
+            "coefficient": "-1.0",
+            "id": "2"
+          }
+        ]
+      },
+      {
+        "SPECIES_REF": [
+          {
+            "coefficient": "1.0",
+            "id": "4"
+          },
+          {
+            "coefficient": "-1.0",
+            "id": "3"
+          },
+          {
+            "coefficient": "1.0",
+            "id": "1"
+          }
+        ]
+      },
+      {
+        "SPECIES_REF": [
+          {
+            "coefficient": "1.0",
+            "id": "1"
+          },
+          {
+            "coefficient": "1.0",
+            "id": "6"
+          },
+          {
+            "coefficient": "-1.0",
+            "id": "5"
+          }
+        ]
+      },
+      {
+        "SPECIES_REF": [
+          {
+            "coefficient": "1.0",
+            "id": "8"
+          },
+          {
+            "coefficient": "-1.0",
+            "id": "7"
+          },
+          {
+            "coefficient": "1.0",
+            "id": "1"
+          }
+        ]
+      },
+      {
+        "SPECIES_REF": [
+          {
+            "coefficient": "1.0",
+            "id": "10"
+          },
+          {
+            "coefficient": "-1.0",
+            "id": "9"
+          },
+          {
+            "coefficient": "1.0",
+            "id": "1"
+          }
+        ]
+      },
+      {
+        "SPECIES_REF": [
+          {
+            "coefficient": "1.0",
+            "id": "13"
+          },
+          {
+            "coefficient": "-1.0",
+            "id": "12"
+          },
+          {
+            "coefficient": "1.0",
+            "id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

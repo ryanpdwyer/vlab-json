@@ -1,0 +1,93 @@
+{
+  "FILESYSTEM": {
+    "DIRECTORY": [{
+      "name": "stockroom",
+      "SOLUTION": [{
+        "name": "Distilled H<sub>2</sub>O",
+        "description": "Distilled Water",
+        "volume": "3.0",
+        "vessel": "3LCarboy",
+        "species": [{ "id": "0" }]
+      },
+	  {
+                  "name": "Natural Water Sample", 
+                  "description": "Natural Water Sample", 
+                  "volume": "0.1", 
+                  "vessel": "100mLVolumetricFlask", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "26", 
+                        "amount": "0.0008"
+                     }, 
+                     {
+                        "id": "27", 
+                        "amount": "0.00122"
+                     }
+                  ]
+               },
+
+	  {
+		  "name": "0.1M NaOH",
+		  "description": "0.1M Sodium Hydroxide",
+		  "volume": "0.1",
+		  "species": [
+			{ "id": "0" },
+			{
+			  "id": "8",
+			  "amount": "0.01"
+			},
+			{
+			  "id": "2",
+			  "amount": "0.01"
+			}
+		  ]
+		},
+            {
+              "name": "0.1M HCl",
+              "description": "0.1 Molar Hydrochloric Acid",
+              "volume": "0.1",
+              "species": [
+                { "id": "0" },
+                {
+                  "id": "7",
+                  "amount": "0.01"
+                },
+                {
+                  "id": "1",
+                  "amount": "0.01"
+                }
+              ]
+            },
+			{
+              "name": "Methyl Orange",
+              "description": "Methyl Orange Indicator Solution",
+              "volume": "0.1",
+              "vessel": "100mLBottle",
+              "species": [
+                { "id": "0" },
+                {
+                  "id": "41",
+                  "amount": ".0001"
+                }
+              ]
+            },
+            {
+              "name": "Phenolphthalein",
+              "description": "Phenolphthalein Indicator Solution",
+              "volume": "0.1",
+              "vessel": "100mLBottle",
+              "species": [
+                { "id": "0" },
+                {
+                  "id": "47",
+                  "amount": ".00056"
+                }
+              ]
+            }]
+			}
+      ]
+    }
+  }

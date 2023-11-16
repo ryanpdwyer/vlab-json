@@ -1,0 +1,82 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1 M Reagent X", 
+                  "description": "0.1 Molar Reagent X", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "212", 
+                        "amount": ".01"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.2 M Reagent Y", 
+                  "description": "0.2 Molar Reagent Y", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "213", 
+                        "amount": ".02"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.2 M Reagent X", 
+                  "description": "0.2 Molar Reagent X", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "212", 
+                        "amount": ".02"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "0.1 M Reagent Y", 
+                  "description": "0.1 Molar Reagent Y", 
+                  "volume": ".1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "213", 
+                        "amount": ".01"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "camping2.htm", 
+               "description": "Camping Problem 2 Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

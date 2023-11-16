@@ -1,0 +1,159 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }
+            ], 
+            "DIRECTORY": [
+               {
+                  "name": "Stock-Solutions", 
+                  "SOLUTION": [
+                     {
+                        "name": "19M NaOH", 
+                        "description": "19M Sodium Hydroxide", 
+                        "volume": "2.0", 
+                        "vessel": "2500mLBottle", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "8", 
+                              "amount": "38"
+                           }, 
+                           {
+                              "id": "2", 
+                              "amount": "38"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "11.6M HCl", 
+                        "description": "11.6 Molar Hydrochloric Acid", 
+                        "volume": "2.0", 
+                        "vessel": "2500mLBottle", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "7", 
+                              "amount": "23.2"
+                           }, 
+                           {
+                              "id": "1", 
+                              "amount": "23.2"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "17.8M H<sub>2</sub>SO<sub>4</sub>", 
+                        "description": "17.8 Molar Sulfuric Acid", 
+                        "volume": "2.0", 
+                        "vessel": "2500mLBottle", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "29", 
+                              "amount": "35.6"
+                           }, 
+                           {
+                              "id": "1", 
+                              "amount": "35.6"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "15.4M HNO<sub>3</sub>", 
+                        "description": "15.4 Molar Nitric Acid", 
+                        "volume": "2.0", 
+                        "vessel": "2500mLBottle", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "3", 
+                              "amount": "30.8"
+                           }, 
+                           {
+                              "id": "1", 
+                              "amount": "30.8"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "15M HClO<sub>4</sub>", 
+                        "description": "15 Molar Perchloric Acid", 
+                        "volume": "2.0", 
+                        "vessel": "2500mLBottle", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "6", 
+                              "amount": "30"
+                           }, 
+                           {
+                              "id": "1", 
+                              "amount": "30"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "14.6M H<sub>3</sub>PO<sub>4</sub>", 
+                        "description": "14.6 Molar Phosphoric Acid", 
+                        "volume": "2.0", 
+                        "vessel": "2500mLBottle", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "37", 
+                              "amount": "29.2"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "14.8M NH<sub>3</sub>", 
+                        "description": "14.8 Molar Ammonia", 
+                        "volume": "2.0", 
+                        "vessel": "2500mLBottle", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "33", 
+                              "amount": "29.6"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "dilution2.htm", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

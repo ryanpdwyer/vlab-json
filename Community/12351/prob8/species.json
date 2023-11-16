@@ -1,0 +1,201 @@
+{
+   "SPECIES_LIST": {
+      "SPECIES": [
+         {
+            "id": "0", 
+            "name": "H<sub>2</sub>O", 
+            "enthalpy": "-285.83", 
+            "entropy": "69.91", 
+            "state": "l"
+         }, 
+         {
+            "id": "1", 
+            "name": "H<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "entropy": "0.0"
+         }, 
+         {
+            "id": "2", 
+            "name": "OH<sup>-</sup>", 
+            "enthalpy": "-229.99", 
+            "entropy": "-10.75"
+         }, 
+         {
+            "id": "3", 
+            "name": "AgCl", 
+            "enthalpy": "-172.1", 
+            "entropy": "96.2", 
+            "molecularWeight": "143.3212", 
+            "state": "s"
+         }, 
+         {
+            "id": "4", 
+            "name": "Ag<sup>+</sup>", 
+            "enthalpy": "105.579", 
+			            "molecularWeight": "107.87", 
+            "entropy": "72.68"
+         }, 
+         {
+            "id": "5", 
+            "name": "Cl<sup>-</sup>", 
+            "enthalpy": "-167.58999999999997", 
+            "entropy": "56.5"
+         }, 
+         {
+            "id": "6", 
+            "name": "PbCO<sub>3</sub>", 
+            "enthalpy": "-272.1", 
+            "entropy": "96.2", 
+            "molecularWeight": "267.2", 
+            "state": "s"
+         }, 
+         {
+            "id": "7", 
+            "name": "Pb<sup>+2</sup>", 
+            "enthalpy": "1.0", 
+            "entropy": "18.0"
+         }, 
+         {
+            "id": "8", 
+            "name": "CO<sub>3</sub><sup>-2</sup>", 
+            "enthalpy": "-677.0",    
+			 "molecularWeight": "60.01",
+            "entropy": "-156.874146391288"
+         }, 
+         {
+            "id": "9", 
+            "name": "PbCl<sub>2</sub>", 
+            "enthalpy": "-272.1", 
+            "entropy": "433.6362649332013", 
+            "molecularWeight": "278.106", 
+            "state": "s"
+         }, 
+         {
+            "id": "10", 
+            "name": "AlOH<sub>3</sub>", 
+            "enthalpy": "-272.1", 
+            "entropy": "96.2", 
+            "molecularWeight": "78.00 ", 
+            "state": "s"
+         }, 
+         {
+            "id": "11", 
+            "name": "Al<sup>+3</sup>", 
+            "enthalpy": "-531.3999999999999", 
+            "entropy": "-3674.56377700301"
+         }, 
+         {
+            "id": "12", 
+            "name": "Ag<sub>2</sub>CO<sub>3</sub>", 
+            "enthalpy": "-272.1", 
+            "entropy": "850.2837250176467",
+						"density": "6.08", 
+            "molecularWeight": "275.75", 
+            "hue": "75", 
+            "saturation": "100", 
+            "value": "100", 
+            "colorConcentration": ".2", 
+            "state": "s"
+         }, 
+         {
+            "id": "13", 
+            "name": "Ag<sub>2</sub>SO<sub>4</sub>", 
+            "enthalpy": "-715.9", 
+            "entropy": "497.7844347584604", 
+            "molecularWeight": "311.87", 
+            "state": "s"
+         }, 
+         {
+            "id": "14", 
+            "name": "SO<sub>4</sub><sup>-2</sup>", 
+            "enthalpy": "-909.27", 
+            "entropy": "20.1"
+         }, 
+         {
+            "id": "15", 
+            "name": "Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>", 
+            "enthalpy": "-4137.599999999999", 
+            "entropy": "236.0", 
+            "molecularWeight": "308.24", 
+            "state": "s"
+         }, 
+         {
+            "id": "16", 
+            "name": "Ca<sup>+2</sup>", 
+            "enthalpy": "-543.0", 
+            "entropy": "-55.2"
+         }, 
+         {
+            "id": "17", 
+            "name": "PO<sub>4</sub><sup>-3</sup>", 
+            "enthalpy": "-1277.4", 
+            "entropy": "-189.54347645134808"
+         }, 
+         {
+            "id": "18", 
+            "name": "SrSO<sub>4</sub>", 
+            "enthalpy": "-272.1", 
+            "entropy": "96.2", 
+            "molecularWeight": "183.69", 
+            "state": "s"
+         }, 
+         {
+            "id": "19", 
+            "name": "Sr<sup>+2</sup>", 
+            "enthalpy": "-547.0", 
+            "entropy": "-4019.4646158625164"
+         }, 
+         {
+            "id": "20", 
+            "name": "Sr(IO<sub>3</sub>)<sub>2</sub>", 
+            "enthalpy": "-413.6", 
+            "entropy": "236.0", 
+            "molecularWeight": "437.42", 
+            "state": "s"
+         }, 
+         {
+            "id": "21", 
+            "name": "IO<sub>3</sub><sup>-</sup>", 
+            "enthalpy": "-221.3", 
+            "entropy": "1099.856087539829"
+         },
+		       {
+				"id": "22",
+				"name": "Na<sup>+</sup>",
+				"enthalpy": "-240.12",
+				"entropy": "59.0",
+				"molecularWeight": "22.99"
+      },
+	           {
+            "id": "23", 
+            "name": "Na<sub>2</sub>CO<sub>3</sub>", 
+            "enthalpy": "-903.6", 
+            "entropy": "-12306.0", 
+            "molecularWeight": "105.99", 
+			"density": "2.54",
+            "state": "s"
+         },
+		 {
+        "id": "24",
+        "name": "NO<sub>3</sub><sup>-</sup>",
+        "enthalpy": "-205.0",
+        "entropy": "146.4",
+        "molecularWeight": "62.01"
+      },
+	    {
+        "id": "26",
+        "name": "H<sub>2</sub>CO<sub>3</sub>",
+        "enthalpy": "-669.65",
+        "entropy": "187.4",
+        "molecularWeight": "62.026"
+      },
+      {
+        "id": "27",
+        "name": "HCO<sub>3</sub><sup>-</sup>",
+        "enthalpy": "-691.99",
+        "entropy": "-9.130028584898714",
+        "molecularWeight": "61.018"
+      }
+      ]
+   }
+}

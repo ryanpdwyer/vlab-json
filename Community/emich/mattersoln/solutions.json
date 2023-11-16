@@ -1,0 +1,76 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.51865"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NaCl", 
+                  "description": "Sodium Chloride", 
+                  "volume": "0.0", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "14", 
+                        "amount": "2.6"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "MgCl<sub>2</sub>", 
+                  "description": "Magnesium Chloride", 
+                  "volume": "0.0", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "16", 
+                        "amount": "2.4"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Na<sub>2</sub>SO<sub>4</sub> 10H<sub>2</sub>O", 
+                  "description": "Sodium Sulfate Decahydrate", 
+                  "volume": "0.0", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "19", 
+                        "amount": "0.5"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "AgNO<sub>3</sub>", 
+                  "description": "Silver Nitrate", 
+                  "volume": "0.0", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "20", 
+                        "amount": "2.1"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "problem.html", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

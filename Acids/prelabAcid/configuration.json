@@ -1,0 +1,29 @@
+{
+  "title": "Prelab: Acid Base Titration",
+  "solutionViewers": [
+    {
+      "id": "solutionProperties",
+      "displayDefault": true,
+      "args": {
+        "honorSignificantFigures": true
+      }
+    },
+    {
+      "id": "spectrometer",
+      "displayDefault": false
+    },
+    {
+      "id": "thermometer",
+      "displayDefault": true
+    },
+    {
+      "id": "pH",
+      "displayDefault": true
+    },
+    {
+      "id": "vesselTrackingControl",
+      "displayDefault": false
+    }
+  ],
+  "transfer": ["precise", "significantFigures", "realistic"]
+}

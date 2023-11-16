@@ -1,0 +1,74 @@
+{
+   "SPECIES_LIST": {
+      "SPECIES": [
+         {
+            "entropy": "69.91", 
+            "name": "H<sub>2</sub>O", 
+            "state": "l", 
+            "enthalpy": "-285.83", 
+            "molecularWeight": "18.016", 
+            "id": "0"
+         }, 
+         {
+            "entropy": "0.0", 
+            "name": "H<sup>+</sup>", 
+            "enthalpy": "0.0", 
+            "molecularWeight": "1.008", 
+            "id": "1"
+         }, 
+         {
+            "entropy": "-10.75", 
+            "name": "OH<sup>-</sup>", 
+            "enthalpy": "-229.99", 
+            "molecularWeight": "17.008", 
+            "id": "2"
+         }, 
+         {
+            "entropy": "146.4", 
+            "name": "NO<sub>3</sub><sup>-</sup>", 
+            "enthalpy": "-205.0", 
+            "molecularWeight": "62.01", 
+            "id": "3"
+         }, 
+         {
+            "entropy": "59.0", 
+            "name": "Na<sup>+</sup>", 
+            "enthalpy": "-240.12", 
+            "molecularWeight": "22.99", 
+            "id": "4"
+         }, 
+         {
+            "entropy": "178.7", 
+            "name": "CH<sub>3</sub>COOH", 
+            "enthalpy": "-485.76", 
+            "molecularWeight": "60.052", 
+            "id": "5"
+         }, 
+         {
+            "entropy": "86.79009304852713", 
+            "name": "CH<sub>3</sub>COO<sup>-</sup>", 
+            "enthalpy": "-486.01", 
+            "molecularWeight": "59.044", 
+            "id": "6"
+         }, 
+         {
+            "entropy": "144.0", 
+            "name": "PhenolphthaleinH", 
+            "enthalpy": "-229.99", 
+            "molecularWeight": "318.33", 
+            "id": "7"
+         }, 
+         {
+            "name": "Phenolphthalein<sup>-</sup>", 
+            "id": "8", 
+            "colorConcentration": "8.0E-5", 
+            "enthalpy": "-232.99", 
+            "molecularWeight": "318.33", 
+            "saturation": "100", 
+            "hue": "320", 
+            "entropy": "-58.14250539834609", 
+            "value": "84"
+         }
+      ]
+   }
+}

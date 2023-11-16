@@ -1,0 +1,88 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "166.51865"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NaHCO<sub>3</sub>", 
+                  "description": "Sodium Bicarbonate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "60", 
+                        "amount": "1.4"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Na<sub>2</sub>CO<sub>3</sub>", 
+                  "description": "Sodium Carbonate", 
+                  "vessel": "SolidBottle", 
+                  "species": [
+                     {
+                        "id": "61", 
+                        "amount": "1.5"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M HCl", 
+                  "description": "1 Molar Hydrochloric Acid", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.55062167"
+                     }, 
+                     {
+                        "id": "7", 
+                        "amount": "0.1"
+                     }, 
+                     {
+                        "id": "1", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "1M NaOH", 
+                  "description": "1M Sodium Hydroxide", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.55062167"
+                     }, 
+                     {
+                        "id": "8", 
+                        "amount": "0.1"
+                     }, 
+                     {
+                        "id": "2", 
+                        "amount": "0.1"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "problem.html", 
+               "description": "Problem Description", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

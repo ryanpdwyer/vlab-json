@@ -1,0 +1,59 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "100g Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "insulated": "true", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0", 
+                        "amount": "5.55062165"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "200g Solar Salt Liquid", 
+                  "description": "Solar Liquid 1", 
+                  "insulated": "true", 
+                  "volume": "0.071942", 
+                  "species": [
+                     {
+                        "id": "60", 
+                        "amount": "1.18202"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "200g Solar Oil Liquid", 
+                  "description": "Solar Liquid 2", 
+                  "insulated": "true", 
+                  "volume": "0.08264", 
+                  "species": [
+                     {
+                        "id": "62", 
+                        "amount": "1.18202"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "200g Solar Metal Liquid", 
+                  "description": "Solar Liquid 3", 
+                  "insulated": "true", 
+                  "volume": "0.03808", 
+                  "species": [
+                     {
+                        "id": "61", 
+                        "amount": "1.18202"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,63 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "Distilled H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "3.0", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "AgNO<sub>3</sub> Solution", 
+                  "description": "Solution of 1.00g of AgNO3 dissolved in 100.0 mL of water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "3", 
+                        "amount": "0.00588674583869"
+                     }, 
+                     {
+                        "id": "9", 
+                        "amount": "0.00588674583869"
+                     }
+                  ]
+               }, 
+               {
+                  "name": "NaCl Solution", 
+                  "description": "Solution of .50g of NaCl dissolved in 100.0 mL of water", 
+                  "volume": "0.1", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }, 
+                     {
+                        "id": "8", 
+                        "amount": "0.00855542210998"
+                     }, 
+                     {
+                        "id": "7", 
+                        "amount": "0.00855542210998"
+                     }
+                  ]
+               }
+            ], 
+            "FILE": {
+               "href": "limitingReagents.htm", 
+               "description": "Limiting Reagents Problem", 
+               "#text": "Problem Description"
+            }
+         }
+      ]
+   }
+}

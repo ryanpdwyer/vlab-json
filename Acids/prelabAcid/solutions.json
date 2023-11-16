@@ -1,0 +1,346 @@
+{
+   "FILESYSTEM": {
+      "DIRECTORY": [
+         {
+            "name": "stockroom", 
+            "SOLUTION": [
+               {
+                  "name": "H<sub>2</sub>O", 
+                  "description": "Distilled Water", 
+                  "volume": "2.1", 
+                  "vessel": "3LCarboy", 
+                  "species": [
+                     {
+                        "id": "0"
+                     }
+                  ]
+               }
+            ], 
+            "DIRECTORY": [
+               {
+                  "name": "Problem 1 Solutions", 
+                  "SOLUTION": [
+                     {
+                        "name": "0.2M NaOH", 
+                        "description": "Approx 0.2M Sodium Hydroxide", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "8", 
+                              "amount": "0.02000"
+                           }, 
+                           {
+                              "id": "2", 
+                              "amount": "0.02000"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "0.05000M KHP", 
+                        "description": "0.05000M KHP", 
+                        "volume": "0.25", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "51", 
+                              "amount": "0.0125"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "0.08000M KHP", 
+                        "description": "0.08000M KHP", 
+                        "volume": "0.25", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "51", 
+                              "amount": "0.02"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "0.10000M KHP", 
+                        "description": "0.10000M KHP", 
+                        "volume": "0.25", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "51", 
+                              "amount": "0.025"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Phenolphthalein", 
+                        "description": "Phenolphthalein Indicator Solution", 
+                        "volume": "0.1", 
+                        "vessel": "100mLBottle", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "47", 
+                              "amount": ".0000002"
+                           }
+                        ]
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Problem 2 Solutions", 
+                  "SOLUTION": [
+                     {
+                        "name": "0.2M NaOH", 
+                        "description": "Approx 0.2M Sodium Hydroxide", 
+                        "volume": "0.1", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "8", 
+                              "amount": "0.02000"
+                           }, 
+                           {
+                              "id": "2", 
+                              "amount": "0.02000"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "0.2000M KHP", 
+                        "description": "0.2000 Molar KHP Solution", 
+                        "volume": "0.25", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "51", 
+                              "amount": "0.05"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "0.4000M KHP", 
+                        "description": "0.4000 Molar KHP Solution", 
+                        "volume": "0.25", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "51", 
+                              "amount": "0.1"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "0.6000M KHP", 
+                        "description": "0.6000 Molar KHP Solution", 
+                        "volume": "0.25", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "51", 
+                              "amount": "0.15"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Phenolphthalein", 
+                        "description": "Phenolphthalein Indicator Solution", 
+                        "volume": "0.1", 
+                        "vessel": "100mLBottle", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "47", 
+                              "amount": ".0000002"
+                           }
+                        ]
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Problem 3 Solutions", 
+                  "SOLUTION": [
+                     {
+                        "name": "1M NaOH", 
+                        "description": "Approx 1M Sodium Hydroxide", 
+                        "volume": "0.25", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "8", 
+                              "amount": "0.25625"
+                           }, 
+                           {
+                              "id": "2", 
+                              "amount": "0.25625"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "0.1M HCl", 
+                        "description": "0.1M Molar Hydrochloric Acid", 
+                        "volume": "0.25", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "7", 
+                              "amount": "0.028125"
+                           }, 
+                           {
+                              "id": "1", 
+                              "amount": "0.028125"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "0.09000M KHP", 
+                        "description": "0.09000 Molar KHP Solution", 
+                        "volume": "0.25", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "51", 
+                              "amount": "0.0225"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Phenolphthalein", 
+                        "description": "Phenolphthalein Indicator Solution", 
+                        "volume": "0.1", 
+                        "vessel": "100mLBottle", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "47", 
+                              "amount": ".0000002"
+                           }
+                        ]
+                     }
+                  ]
+               }, 
+               {
+                  "name": "Problem 4 Solutions", 
+                  "SOLUTION": [
+                     {
+                        "name": "0.1M NaOH", 
+                        "description": "Approx 0.1M Sodium Hydroxide", 
+                        "volume": "0.25", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "8", 
+                              "amount": "0.025625"
+                           }, 
+                           {
+                              "id": "2", 
+                              "amount": "0.025625"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "1M HCl", 
+                        "description": "1M Molar Hydrochloric Acid", 
+                        "volume": "0.25", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "7", 
+                              "amount": "0.27625"
+                           }, 
+                           {
+                              "id": "1", 
+                              "amount": "0.27625"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "0.09000M KHP", 
+                        "description": "0.09000 Molar KHP Solution", 
+                        "volume": "0.25", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "51", 
+                              "amount": "0.0225"
+                           }
+                        ]
+                     }, 
+                     {
+                        "name": "Phenolphthalein", 
+                        "description": "Phenolphthalein Indicator Solution", 
+                        "volume": "0.1", 
+                        "vessel": "100mLBottle", 
+                        "species": [
+                           {
+                              "id": "0"
+                           }, 
+                           {
+                              "id": "47", 
+                              "amount": ".0000002"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ], 
+            "FILE": [
+               {
+                  "href": "problem1.htm", 
+                  "description": "Problem 1 Description", 
+                  "#text": "Problem 1 Description"
+               }, 
+               {
+                  "href": "problem2.htm", 
+                  "description": "Problem 2 Description", 
+                  "#text": "Problem 2 Description"
+               }, 
+               {
+                  "href": "problem3.htm", 
+                  "description": "Problem 3 Description", 
+                  "#text": "Problem 3 Description"
+               }, 
+               {
+                  "href": "problem4.htm", 
+                  "description": "Problem 4 Description", 
+                  "#text": "Problem 4 Description"
+               }
+            ]
+         }
+      ]
+   }
+}
