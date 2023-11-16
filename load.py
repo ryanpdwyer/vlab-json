@@ -67,3 +67,25 @@ elif display == "Next level sizes":
     json_display = filter_collection(json_representation, 0, levels_to_display, False)
 
 st.json(json_display)
+import streamlit.components.v1 as components
+
+
+components.html(f"""<h3>Virtual lab</h3>
+<div id="vlab"></div>
+<link href="https://chemcollective.org/chem/jsvlab/bundled/911.css" rel="stylesheet">
+<script src="https://chemcollective.org/chem/jsvlab/bundled/850.js"></script>
+<script src="https://chemcollective.org/chem/jsvlab/bundled/526.js"></script>
+<script src="https://chemcollective.org/chem/jsvlab/bundled/911.js"></script>
+<script src="https://chemcollective.org/chem/jsvlab/bundled/lib.js"></script>
+<script>
+const data = {json_representation};
+const language = 'en';
+const allowLoadAssignment = false;
+const showFirstTimeTips = false;
+const appModel = new VLab.AppModel();
+const appView = new VLab.AppView({{ model: appModel,
+                                   el: document.getElementById("vlab"),
+                                   vlab: data,
+             domain: "https://chemcollective.org/chem/jsvlab/"}});
+</script>            
+""", height=640)

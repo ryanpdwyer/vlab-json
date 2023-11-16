@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Choose a Virtual Lab</title>
+        <link href="https://chemcollective.org/chem/jsvlab/bundled/911.css" rel="stylesheet">
+        <script src="https://chemcollective.org/chem/jsvlab/bundled/850.js"></script>
+        <script src="https://chemcollective.org/chem/jsvlab/bundled/526.js"></script>
+        <script src="https://chemcollective.org/chem/jsvlab/bundled/911.js"></script>
+        <script src="https://chemcollective.org/chem/jsvlab/bundled/lib.js"></script>
+    </head>
+    <body>
+        <style>
+            .hidden {
+                display: none;
+            }
+        </style>
+        <h1>Choose a virtual lab</h1>
+        <select id="activity-select"></select>
+        <button id="load-activity-btn">Load activity</button>
+        <div id="vlab" style="height:650px; width: 950px;" class="hidden">
+        </div>
+        <div id="vlab-placeholder" style="width:800px; height:600px; background-color: #f2f2f2; display: flex; justify-content: center; align-items: center;">
+            <p style="font-size: 24px; color: #999;">Virtual lab will be displayed here after it is loaded.</p>
+        </div>
+        <button id="copy-json-btn">Copy JSON</button>
+        <div id="json-data"></div>
+
+        
+                <script>
+                    // Synchronous load of the activity list contained in output.json - use browser methods, not jQuery
+
+                    const language = 'en';
+                    const allowLoadAssignment = false;
+                    const showFirstTimeTips = false;
+                    const appModel = new VLab.AppModel();
+
+                    const request = new XMLHttpRequest();
+                    request.open('GET', 'output.json', false);
+                    request.send(null);
+                    const dataObject = JSON.parse(request.responseText);
+
+                    const vlab_placeholder = document.getElementById("vlab-placeholder");
+                    let data = null;
+                    let json_text = null;
+
+                    // Populate the select element with the activity list
+                    const select = document.getElementById("activity-select");
+                    for (const activity of Object.keys(dataObject)) {
+                        const option = document.createElement("option");
+                        option.value = activity;
+                        option.text = activity;
+                        select.appendChild(option);
+                    }
+                    // Load the selected activity when the button is clicked
+                    document.getElementById("load-activity-btn").addEventListener("click", function() {
+                        const activity = document.getElementById("activity-select").value;
+                        data = dataObject[activity]
+                        // Remove the placeholder div
+                        vlab_placeholder.remove();
+                        vlab_el = document.getElementById("vlab");
+                        vlab_el.classList.remove("hidden");
+                    const appView = new VLab.AppView({ model: appModel,
+                                                       el: vlab_el,
+                                                       vlab: data,
+                                                       domain: "https://chemcollective.org/chem/jsvlab/"});
+
+                    json_text = JSON.stringify(data, null, 2);
+                    document.getElementById("json-data").innerHTML = json_text;
+
+                    });
+
+                    // Copy the contents of the json-data div to the clipboard when the button is clicked
+                    document.getElementById("copy-json-btn").addEventListener("click", function() {
+                        navigator.clipboard.writeText(json_text);
+                    });
+
+                </script>
+            </head>
+        </html>
