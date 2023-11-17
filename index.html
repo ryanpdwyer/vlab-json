@@ -34,12 +34,20 @@
         <div id="vlab-placeholder" style="width:800px; height:600px; background-color: #f2f2f2; display: flex; justify-content: center; align-items: center;">
             <p style="font-size: 24px; color: #999;">Virtual lab will be displayed here after it is loaded.</p>
         </div>
+        <p>Any changes here are not saved after the tab is closed - you should save to a CodePen, text file, etc to save the changes.</p>
         <button id="copy-json-btn">Copy JSON</button> <button id="reload-vlab">Reload Lab</button>
         <div id="json-data"></div>
 
         
                 <script>
                     // Synchronous load of the activity list contained in output.json - use browser methods, not jQuery
+
+                    function showVlabHidePlaceholder() {
+                        const vlab_placeholder = document.getElementById("vlab-placeholder");
+                        const vlab_el = document.getElementById("vlab");
+                        vlab_placeholder.classList.add("hidden");
+                        vlab_el.classList.remove("hidden");
+                    }
 
 
 
@@ -54,7 +62,7 @@
                     request.send(null);
                     const dataObject = JSON.parse(request.responseText);
 
-                    const vlab_placeholder = document.getElementById("vlab-placeholder");
+                    let vlab_el = document.getElementById("vlab");
                     let data = null;
                     let json_text = null;
                     let editor = CodeMirror(document.querySelector('#json-data'), {
@@ -77,10 +85,7 @@ editor.setSize('auto', 'auto');
                     document.getElementById("load-activity-btn").addEventListener("click", function() {
                         const activity = document.getElementById("activity-select").value;
                         data = dataObject[activity]
-                        // Remove the placeholder div
-                        vlab_placeholder.remove();
-                        vlab_el = document.getElementById("vlab");
-                        vlab_el.classList.remove("hidden");
+                        showVlabHidePlaceholder();
                     appView = new VLab.AppView({ model: appModel,
                                                        el: vlab_el,
                                                        vlab: data,
@@ -96,14 +101,26 @@ editor.setSize('auto', 'auto');
                     });
 
                     document.getElementById("reload-vlab").addEventListener("click", function() {
-                        vlab_el = document.getElementById("vlab");
-                        eval(editor.getValue());
+                        // Store editor.getValue() to sessionStorage
+                        sessionStorage.setItem("vlab", editor.getValue());
+                        if (window.location.hash !== "#refresh") {
+                            console.log("Adding #refresh to URL");
+                            window.location = window.location.href + "#refresh";
+                        }
+                        window.location.reload();
+                    });
 
-                        appModel = new VLab.AppModel();
-                        appView = new VLab.AppView({ model: appModel,
+                    addEventListener("load", function() {
+                        if (window.location.hash === "#refresh") {
+                            // Restore editor.getValue() from sessionStorage
+                            editor.setValue(sessionStorage.getItem("vlab"));
+                            eval(editor.getValue());
+                            showVlabHidePlaceholder();
+                            appView = new VLab.AppView({ model: appModel,
                                                            el: vlab_el,
                                                            vlab: data,
                                                            domain: "https://chemcollective.org/chem/jsvlab/"});
+                        }
                     });
                 </script>
             </head>
