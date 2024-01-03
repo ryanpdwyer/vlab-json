@@ -3,11 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Choose a Virtual Lab</title>
-        <link href="https://chemcollective.org/chem/jsvlab/bundled/911.css" rel="stylesheet">
-        <script src="https://chemcollective.org/chem/jsvlab/bundled/850.js"></script>
-        <script src="https://chemcollective.org/chem/jsvlab/bundled/526.js"></script>
-        <script src="https://chemcollective.org/chem/jsvlab/bundled/911.js"></script>
-        <script src="https://chemcollective.org/chem/jsvlab/bundled/lib.js"></script>
+        <script defer="defer" src="https://chemcollective.org/chem/jsvlab/850-3137d0eefbbd05a57734.js"></script><script defer="defer" src="https://chemcollective.org/chem/jsvlab/755-11c3fd056b5886c797a7.js"></script><script defer="defer" src="https://chemcollective.org/chem/jsvlab/896-b74b634d43b84b4eeadd.js"></script><script defer="defer" src="https://chemcollective.org/chem/jsvlab/bundle-53476da848dc380a2b44.js"></script><script defer="defer" src="https://chemcollective.org/chem/jsvlab/526-2ab1d3475c35ab8befd6.js"></script><script defer="defer" src="https://chemcollective.org/chem/jsvlab/lib-3f0127fb962df241e57c.js"></script><link href="https://chemcollective.org/chem/jsvlab/896.css" rel="stylesheet">
         <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/codemirror.min.css">
 </link>
@@ -93,6 +89,25 @@ editor.setSize('auto', 'auto');
 
                     editor.setValue("var data = "+JSON.stringify(data, null, 2)+";");
                     json_text = JSON.stringify(data, null, 2);
+
+                    // Add a nice summary of the reactions from the JSON data
+                    let reactions = [];
+                    let all_species = {};
+                    for (const specie of data.species.SPECIES_LIST.SPECIES) {
+                        all_species[specie.id] = specie;
+                    }
+
+                    for (const species of data.reactions.REACTIONS.REACTION) {
+                        // Copy the species object so we don't modify the original
+                        const reaction = JSON.parse(JSON.stringify(species)).SPECIES_REF;
+                        for (const specie of reaction) {
+                            if (specie.id in all_species) {
+                                specie.name = all_species[specie.id].name;
+                            }
+                        }
+                        reactions.push(reaction);
+                    }
+                    console.log(reactions);
  });
 
                     // Copy the contents of the json-data div to the clipboard when the button is clicked
