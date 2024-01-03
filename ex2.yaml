@@ -1,0 +1,218 @@
+assignment:
+  assignmentText: "<em>LeChatlier's Principle:</em> <p><p><b>Objective:</b>    Use\
+    \ the virural lab to gain an understanding of LeChatlier's principle by observing\
+    \ the effects of induced perturbations on the equilibrium distribution of the\
+    \ Copper (II) reaction. <p><p><b>Assignment:</b> Consider the reaction scheme\
+    \ below:<p align=\"center\">2 MnO<sub><font size=\"-2\">4</font></sub><sup>-</\
+    \ font></sup>(aq) + 5 C<sub><font size=\"-2\">2</font></sub>O<sub><font size=\"\
+    -2\">4</font></sub><sup>2-</ font></sup>(aq) + 16 H<sup><font size=\"-2\">+</font></sup>(aq)\
+    \ \u21CC 2 Mn<sup><font size=\"-2\">2+</font></sup>(aq) + 10 CO<sub><font size=\"\
+    -2\">2</font></sub>(g) + 8 H<sub><font size=\"-2\">2</font></sub>O(l)</p> <p><p><b>NOTE:</b>\
+    \  The MnO<sub><font size=\"-2\">4</font></sub><sup>-</ font></sup> ion is purple.\
+    \ The Mn<sup><font size=\"-2\">2+</font></sup> ion is pink. All of the other substances\
+    \ are colorless. <p><p><b>1.</b> What is the equilibrium constant expression (K)\
+    \ for the permanganate redox reaction? <p><p><b>2.</b> To the system at equilibrium,\
+    \ remove the gas from the system. <b>What is being removed from the system? Is\
+    \ it a reactant or product? What happens to the color of the solution? State the\
+    \ Le Chatelier response to the stress (shift left / right), and use the Le Chatelier\
+    \ response to explain the experimental observations</b> <p><p><b>3.</b> In another\
+    \ equilibrated vessle, add NaOH to the system.<b>What happens to the color of\
+    \ the solution? State the Le Chatelier response to the stress (shift left / right),\
+    \ and use the Le Chatelier response to explain the experimental observations</b>\
+    \ <p><p><b>4.</b> In another equilibrated vessle, add H<sub>2</sub>SO<sub>4</sub>\
+    \ to the system. <b>What happens to the color of the solution? State the Le Chatelier\
+    \ response to the stress (shift left / right), and use the Le Chatelier response\
+    \ to explain the experimental observations</b>"
+configuration:
+  solutionViewers:
+  - args:
+      honorSignificantFigures: false
+    displayDefault: true
+    id: solutionProperties
+  - args:
+      unitsToggleEnabled: true
+    displayDefault: true
+    id: aqueous
+  - args:
+      unitsToggleEnabled: true
+    displayDefault: true
+    id: solid
+  - displayDefault: false
+    id: spectrometer
+  - displayDefault: false
+    id: particleView
+  - displayDefault: true
+    id: thermometer
+  - displayDefault: true
+    id: pH
+  - displayDefault: false
+    id: vesselTrackingControl
+  title: 'Copper (II) Equilibrium and LeChatlier''s Principle '
+  transfer:
+  - precise
+  - significantFigures
+  - realistic
+reactions:
+  REACTIONS:
+    REACTION:
+    - SPECIES_REF:
+      - coefficient: '-1'
+        id: '0'
+      - coefficient: '1'
+        id: '1'
+      - coefficient: '1'
+        id: '2'
+    - SPECIES_REF:
+      - coefficient: '-2'
+        id: '9'
+      - coefficient: '-1'
+        id: '300'
+      - coefficient: '1'
+        id: '302'
+    - SPECIES_REF:
+      - coefficient: '-1'
+        id: '6'
+      - coefficient: '1'
+        id: '1'
+      - coefficient: '1'
+        id: '33'
+    - SPECIES_REF:
+      - coefficient: '-1'
+        id: '300'
+      - coefficient: '-4'
+        id: '2'
+      - coefficient: '1'
+        id: '304'
+    - SPECIES_REF:
+      - coefficient: '1'
+        id: '30'
+      - coefficient: '1'
+        id: '1'
+      - coefficient: '-1'
+        id: '29'
+solutions:
+  FILESYSTEM:
+    DIRECTORY:
+    - SOLUTION:
+      - description: Distilled Water
+        name: Distilled H<sub>2</sub>O
+        species:
+        - id: '0'
+        vessel: 3LCarboy
+        volume: '3.0'
+      - description: 3 Molar Ammonia
+        name: 3M NH<sub>3</sub>
+        species:
+        - id: '0'
+        - amount: '0.3'
+          id: '33'
+        volume: '0.1'
+      - description: 5 M Sodium Hydroxide
+        name: 5 M NaOH
+        species:
+        - id: '0'
+        - amount: '0.05'
+          id: '8'
+        - amount: '0.05'
+          id: '2'
+        volume: '0.1'
+      - description: Copper(II) Sulfate Solution
+        name: Cu<sup>2+</sup> solution
+        species:
+        - id: '0'
+        - amount: '.01'
+          id: '300'
+        - amount: '.01'
+          id: '30'
+        volume: '0.1'
+      - description: 3 Molar Sulfuric Acid
+        name: 3M H<sub>2</sub>SO<sub>4</sub>
+        species:
+        - id: '0'
+        - amount: '0.3'
+          id: '29'
+        - amount: '0.3'
+          id: '1'
+        volume: '0.1'
+      name: stockroom
+species:
+  SPECIES_LIST:
+    SPECIES:
+    - density: '1.000'
+      enthalpy: '-285.83'
+      entropy: '69.91'
+      id: '0'
+      molecularWeight: '18.01534'
+      name: H<sub>2</sub>O
+      specificHeat: '1.000'
+      state: l
+    - enthalpy: '0.0'
+      entropy: '0.0'
+      id: '1'
+      name: H<sup>+</sup>
+    - enthalpy: '-229.99'
+      entropy: '-10.75'
+      id: '2'
+      name: OH<sup>-</sup>
+    - enthalpy: -133.26
+      entropy: 111.17
+      id: 6
+      name: NH<sub>4</sub><sup>+</sup>
+      simpleName: NH4^+
+      state: aq
+    - density: '0.971'
+      enthalpy: '-240.1'
+      entropy: '59.0'
+      id: '8'
+      molecularWeight: '22.99'
+      name: Na<sup>+</sup>
+    - enthalpy: '-167.16'
+      entropy: '56.5'
+      id: '9'
+      molecularWeight: '35.453'
+      name: Cl<sup>-</sup>
+    - enthalpy: '-885.75'
+      entropy: '126.86'
+      id: '29'
+      molecularWeight: '97.078'
+      name: HSO<sub>4</sub><sup>-</sup>
+    - enthalpy: '-907.51'
+      entropy: '17.15'
+      id: '30'
+      molecularWeight: '96.07'
+      name: SO<sub>4</sub><sup>2-</sup>
+    - enthalpy: '-80.29'
+      entropy: '111.42'
+      id: '33'
+      molecularWeight: '17.034'
+      name: NH<sub>3</sub>
+    - colorConcentration: '.08'
+      enthalpy: '0'
+      entropy: '0'
+      hue: '160'
+      id: '300'
+      name: M<sup>+2</sup>
+      saturation: '88'
+      value: '100'
+    - colorConcentration: '.3'
+      enthalpy: '-264.9'
+      entropy: '100'
+      hue: '130'
+      id: '302'
+      molecularWeight: '99'
+      name: CuCl<sub>2</sub>
+      saturation: '88'
+      state: s
+      value: '100'
+    - colorConcentration: '.017'
+      enthalpy: '-969.96'
+      entropy: '-123.857'
+      hue: '242'
+      id: '304'
+      molecularWeight: '131.6670'
+      name: M(OH)<sub>4</sub><sup>2-</sup>
+      saturation: '86'
+      value: '70'
+spectra:
+  SPECTRA_LIST:
+    SPECIES: []
